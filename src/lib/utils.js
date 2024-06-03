@@ -14,7 +14,7 @@ export function renderRefs (refs) {
         out.push(`<a href=${'https://t.me/' + refs.telegram} class="hover:underline">telegram</a>`)
     }
     if (refs.matrix) {
-        out.push(`<a href=${'https://matrix.to/#/@' + refs.matrix} class="hover:underline">matrix</a>`)
+        out.push(`<a href=${'https://matrix.to/#/'+(refs.matrix[0] === "#" ? "" : "@") + refs.matrix} class="hover:underline">matrix</a>`)
     }
     if (refs.mastodon) {
         const [ server, handle ] = refs.mastodon.split('@')

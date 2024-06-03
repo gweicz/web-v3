@@ -55,6 +55,8 @@ projects:
     img: gweicz-legacy.png
     refs:
       web: legacy.gwei.cz
+      twitter: gweicz
+      matrix: "#gweicz:gwei.cz"
     past: true
     years: 2020-2025
     description: The first & second era (5 years) of the Gwei.cz community.
@@ -75,6 +77,7 @@ projects:
     refs:
       web: ethbrno.cz
       twitter: ethbrno
+      bsky: ethbrno.cz
     years: 2021-
 
   - name: Bankless.cz
@@ -82,6 +85,8 @@ projects:
     img: banklesscz.png
     description: Local information portal in Czech language.
     years: 2021-2022
+    refs:
+      web: https://web.archive.org/web/20221017125257/https://bankless.cz/
     past: true
 
   - name: UTXO Prague
@@ -136,6 +141,7 @@ projects:
     description: The nicest way to lose crypto! Support crypto non-profit projects that bring needed change in people's lives.
     refs:
       web: donat.network
+      twitter: Donat_Network
     years: 2023-
 
   - name: L2Loft Prague
@@ -144,6 +150,7 @@ projects:
     description: A collaborative day around Ethereum Layer2s and related topics.
     past: true
     refs:
+      web: https://lu.ma/l2loft
       twitter: l2loft
     years: "2023"
 
@@ -173,6 +180,7 @@ projects:
     refs:
       web: web3privacy.info
       twitter: web3privacy
+      bsky: web3privacy.info
     years: 2023-
 
   - name: CZKC
@@ -181,6 +189,7 @@ projects:
     description: Fiat-collateralized CZK stablecoin.
     refs:
       web: czkc.io
+      twitter: CZKC_cz
     years: 2023-
 
   - name: createx-forge

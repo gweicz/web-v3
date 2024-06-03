@@ -85,7 +85,7 @@ projects:
     past: true
 
   - name: UTXO Prague
-    members: [ tree ]
+    members: [ tree, coinmandeer ]
     img: utxo.jpg
     refs:
       web: utxo.cz
@@ -103,7 +103,7 @@ projects:
     years: 2022-
 
   - name: Develit
-    members: [ petr-klein, radek ]
+    members: [ petr-klein, radek, coinmandeer ]
     img: develit.png
     description: We build tailor-made web3 projects.
     refs:
@@ -138,7 +138,7 @@ projects:
     years: "2023"
 
   - name: Prague Blockchain Week 2023
-    members: [ tree ]
+    members: [ tree, coinmandeer ]
     img: pbw23.jpg
     description: Decentralized cryptocurrency gathering in the heart of europe (10 days, 47+ events, 405+ speakers).
     past: true
@@ -157,7 +157,7 @@ projects:
     years: 2023-
 
   - name: Web3Privacy Now
-    members: [ coinmandeer ]
+    members: [ coinmandeer, cryptomari0, petr-klein ]
     img: web3privacynow.png
     description: Privacy focused community of enthusiasts developers, event organisers, researchers pushing web3privacy forward.
     refs:

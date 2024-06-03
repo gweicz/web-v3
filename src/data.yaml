@@ -1,0 +1,200 @@
+members:
+  - id: radek
+    name: Radek
+    img: radek.jpg
+    refs:
+      twitter: radk
+      telegram: r4deks
+
+  - id: damsky
+    name: Damsky
+    img: damsky.jpg
+    refs:
+      twitter: damskyftw
+      telegram: damskyftw
+
+  - id: tree
+    name: Tree
+    img: tree.jpg
+    refs:
+      bsky: tree.fail
+      telegram: treecz
+      matrix: tree:gwei.cz
+
+  - id: petr-klein
+    name: Petr Klein
+    img: petr-klein.jpg
+    refs:
+      mastodon: "kleinpetr@fosstodon.org"
+      signalMe: https://signal.me/#eu/LAmqF1SdbNshM9fA9s4ynXdJBbC0S3zo0vvd34-a691_nYtFgSFPxbH2O1ZAVoEC
+
+  - id: coinmandeer
+    name: Coinmandeer
+    img: coinmandeer.png
+    refs:
+      twitter: KeenOfCoin
+      telegram: coinmandeer
+
+  - id: cryptomari0
+    name: Cryptomari0
+    img: cryptomario.jpg
+    refs:
+      telegram: cryptomari0
+
+  - id: jacob-jelen
+    name: Jacob Jelen
+    img: jacob-jelen.jpg
+    refs:
+      twitter: jacobjelen
+      telegram: jacobjelen
+
+projects:
+
+  - name: Gwei.cz Legacy
+    members: [ tree, coinmandeer, radek ]
+    img: gweicz-legacy.png
+    refs:
+      web: legacy.gwei.cz
+    past: true
+    years: 2020-2025
+    description: The first & second era (5 years) of the Gwei.cz community.
+
+  - name: BohemianDAO
+    members: [ tree, radek, coinmandeer ]
+    img: bohemiandao.jpg
+    refs:
+      web: bohemiandao.cz
+      twitter: bohemiandao
+    years: 2020-
+    description: An experimental non-profit DAO created to fund local projects supporting education and adoption of the Ethereum platform and Decentralized Finance (DeFi).
+
+  - name: ETHBrno
+    members: [ tree ]
+    img: ethbrno.jpg
+    description: Privacy-focused Ethereum hackathon in Brno, Czech Republic.
+    refs:
+      web: ethbrno.cz
+      twitter: ethbrno
+    years: 2021-
+
+  - name: Bankless.cz
+    members: [ damsky ]
+    img: banklesscz.png
+    description: Local information portal in Czech language.
+    years: 2021-2022
+    past: true
+
+  - name: UTXO Prague
+    members: [ tree ]
+    img: utxo.jpg
+    refs:
+      web: utxo.cz
+      twitter: utxoprague
+    past: true
+    years: 2022-2023
+    description: The largest community conference on blockchain and cryptocurrencies in the Czech Republic.
+
+  - name: BeerFi Prague
+    members: [ radek ]
+    img: beerfi.jpg
+    description: Every Tuesday on the last week of the month, we bring together programmers in Web3.
+    refs:
+      web: beerfi.gwei.cz
+    years: 2022-
+
+  - name: Develit
+    members: [ petr-klein, radek ]
+    img: develit.png
+    description: We build tailor-made web3 projects.
+    refs:
+      web: develit.io
+      twitter: develitio
+    years: 2022-
+
+  - name: Non Fungible Brain
+    members: [ radek ]
+    img: nfb.jpg
+    description: An initiative leveraging NFTs to raise awareness and funding for Alzheimer's research.
+    refs:
+      web: https://www.nonfungiblebrain.com/
+      twitter: NFBrainProject
+    years: 2022-
+
+  - name: Donat.network
+    members: [ jacob-jelen ]
+    img: donat-network.jpg
+    description: The nicest way to lose crypto! Support crypto non-profit projects that bring needed change in people's lives.
+    refs:
+      web: donat.network
+    years: 2023-
+
+  - name: L2Loft Prague
+    members: [ tree, coinmandeer ]
+    img: l2loft.jpg
+    description: A collaborative day around Ethereum Layer2s and related topics.
+    past: true
+    refs:
+      twitter: l2loft
+    years: "2023"
+
+  - name: Prague Blockchain Week 2023
+    members: [ tree ]
+    img: pbw23.jpg
+    description: Decentralized cryptocurrency gathering in the heart of europe (10 days, 47+ events, 405+ speakers).
+    past: true
+    refs:
+      web: prgblockweek.com
+      twitter: Donat_Network
+    years: "2023"
+
+  - name: EthCzech
+    members: [ damsky ]
+    img: ethczech.png
+    description: Beginner friendly ethereum community in Czech Republic.
+    refs:
+      web: https://x.com/EthereumCzech
+      twitter: EthereumCzech
+    years: 2023-
+
+  - name: Web3Privacy Now
+    members: [ coinmandeer ]
+    img: web3privacynow.png
+    description: Privacy focused community of enthusiasts developers, event organisers, researchers pushing web3privacy forward.
+    refs:
+      web: web3privacy.info
+      twitter: web3privacy
+    years: 2023-
+
+  - name: CZKC
+    members: [ radek ]
+    img: czkc.png
+    description: Fiat-collateralized CZK stablecoin.
+    refs:
+      web: czkc.io
+    years: 2023-
+
+  - name: createx-forge
+    members: [ radek ]
+    img: createx.png
+    description: Use CreateX CREATE3 factory within Foundry Forge projects.
+    refs:
+      web: https://github.com/radeksvarz/createx-forge
+    years: 2024-
+
+  - name: ProtoLayers
+    members: [ damsky ]
+    img: protolayers.jpg
+    description: Builder conference advancing ethereum ecosystem one event at at a time.
+    refs:
+      web: protolayers.dev
+      twitter: ProtoLayers
+    years: 2024-
+
+  - name: Onchain Brno
+    members: [ tree, damsky ]
+    img: onchainbrno.jpg
+    description: A federation of events around cryptocurrencies happening at the end of October 2024 in Brno, Czech Republic.
+    refs:
+      web: onchainbrno.com
+      twitter: OnchainBrno
+    years: 2024-

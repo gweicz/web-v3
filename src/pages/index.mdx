@@ -1,0 +1,29 @@
+---
+layout: ../layouts/base.astro
+---
+
+Gwei.cz is a collective of people from various crypto, decentralization and peer-to-peer communities in and around Czechia. The group assembled in 2020 as online community focused on Ethereum and has been active since.
+
+Our goal is to bring active builders together to support each other and coordinate how to drive local adoption, educate newcomers, and raise awareness of the benefits of decentralized technologies and open-source software.
+
+## Members
+
+(in random order)
+
+import MemberList from "../components/MemberList.astro";
+
+<MemberList />
+
+## Active Projects
+
+(from the newest to the oldest)
+
+import ProjectList from "../components/ProjectList.astro";
+
+<ProjectList />
+
+## Past Projects
+
+(from the newest to the oldest)
+
+<ProjectList past="true" />

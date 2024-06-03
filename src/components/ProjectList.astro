@@ -1,0 +1,39 @@
+---
+import { projects, members } from '../data.yaml';
+import { renderRefs } from '../lib/utils.js';
+
+const { past = false } = Astro.props;
+
+function fixLink (url) {
+    if (url.match(/^http/)) return url
+    return `https://${url}`
+}
+
+const arr = projects.filter(p => past ? p.past === true : p.past !== true).reverse()
+---
+
+
+<div class="not-prose">
+    {arr.map(p => (
+        <div class="flex gap-4 mb-6 items-center">
+            <div class="shrink-0"><img src={'/images/projects/'+p.img} class="aspect-square object-cover rounded-xl w-16" /></div>
+            <div class="">
+                <div class="flex gap-2 items-center">
+                    <div class="font-semibold">
+                        {p.refs?.web && (
+                            <a href={fixLink(p.refs.web)} class="hover:underline">{p.name}</a>
+                        )}
+                        {!p.refs?.web && p.name}
+                    </div>
+                    <div class="text-sm">({p.years})</div>
+                    <div class="text-xs">
+                        <Fragment set:html={renderRefs(p.refs)} />
+                    </div>
+                </div>
+                {p.description && (
+                    <div class="prose-inline text-sm">{p.description}</div>
+                )}
+            </div>
+        </div>
+    ))}
+</div>

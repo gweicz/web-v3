@@ -5,7 +5,7 @@ export function renderRefs (refs) {
         return out
     }
     if (refs.twitter) {
-        out.push(`<a href=${'https://twitter.com' + refs.twitter} class="hover:underline">twitter</a>`)
+        out.push(`<a href=${'https://twitter.com/' + refs.twitter} class="hover:underline">twitter</a>`)
     }
     if (refs.bsky) {
         out.push(`<a href=${'https://bsky.app/profile/' + refs.bsky} class="hover:underline">bluesky</a>`)
@@ -23,5 +23,5 @@ export function renderRefs (refs) {
     if (refs.signalMe) {
         out.push(`<a href=${refs.signalMe} class="hover:underline">signal</a>`)
     }
-    return out.join(', ')
+    return '<span class="opacity-75">'+out.join(', ')+'</span>'
 }

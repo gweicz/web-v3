@@ -120,6 +120,16 @@ projects:
       twitter: NFBrainProject
     years: 2022-
 
+  - name: APUS Finance
+    members: [ radek, petr-klein, coinmandeer ]
+    img: apus.jpg
+    description: Next-gen banking. Decentralized.
+    refs:
+      web: apus.finance
+      twitter: APUS_finance_cs
+    years: 2022-2024
+    past: true
+
   - name: Donat.network
     members: [ jacob-jelen ]
     img: donat-network.jpg

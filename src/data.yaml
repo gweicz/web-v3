@@ -51,7 +51,7 @@ members:
 projects:
 
   - name: Gwei.cz Legacy
-    members: [ tree, coinmandeer, radek ]
+    members: [ tree, coinmandeer, radek, cryptomari0 ]
     img: gweicz-legacy.png
     refs:
       web: legacy.gwei.cz

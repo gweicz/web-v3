@@ -170,13 +170,13 @@ projects:
       twitter: Donat_Network
     years: "2023"
 
-  - name: EthCzech
-    members: [ damsky ]
-    img: ethczech.png
-    description: Beginner friendly ethereum community in Czech Republic.
+  - name: CZKC
+    members: [ radek ]
+    img: czkc.png
+    description: Fiat-collateralized CZK stablecoin.
     refs:
-      web: https://x.com/EthereumCzech
-      twitter: EthereumCzech
+      web: czkc.io
+      twitter: CZKC_cz
     years: 2023-
 
   - name: Web3Privacy Now
@@ -189,18 +189,18 @@ projects:
       bsky: web3privacy.info
     years: 2023-
 
-  - name: CZKC
-    members: [ radek ]
-    img: czkc.png
-    description: Fiat-collateralized CZK stablecoin.
+  - name: EthCzech
+    members: [ damsky ]
+    img: ethczech.webp
+    description: Beginner friendly ethereum community in Czech Republic.
     refs:
-      web: czkc.io
-      twitter: CZKC_cz
+      web: https://x.com/EthereumCzech
+      twitter: EthereumCzech
     years: 2023-
 
   - name: createx-forge
     members: [ radek ]
-    img: createx.png
+    img: createx.webp
     description: Use CreateX CREATE3 factory within Foundry Forge projects.
     refs:
       web: https://github.com/radeksvarz/createx-forge

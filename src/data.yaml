@@ -300,7 +300,7 @@ projects:
   - name: DegenGrupa
     members: [ coinmandeer, cryptomari0 ]
     img: degengrupa.webp
-    description: Discord server for degens around Pilsen.
+    description: Discord community for degens around Pilsen (invite-only).
     years: 2022-
 
   - name: APUS Finance

@@ -19,7 +19,9 @@ Our goal is to bring active builders together to support each other and coordina
   tabindex="0"
 ></iframe>
 
-## Members
+import { members, projects } from '../data.yaml'
+
+## Members ({members.length})
 
 *(in random order)*
 
@@ -27,7 +29,7 @@ import MemberList from "../components/MemberList.astro";
 
 <MemberList />
 
-## Active Projects
+## Active Projects ({projects.filter(p => p.past !== true).length})
 
 *(from the newest to the oldest)*
 
@@ -35,7 +37,7 @@ import ProjectList from "../components/ProjectList.astro";
 
 <ProjectList />
 
-## Past Projects
+## Past Projects ({projects.filter(p => p.past === true).length})
 
 *(from the newest to the oldest)*
 

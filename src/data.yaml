@@ -32,6 +32,7 @@ members:
     name: Coinmandeer
     img: coinmandeer.png
     refs:
+      web: coinmandeer.com
       twitter: KeenOfCoin
       telegram: coinmandeer
 
@@ -47,6 +48,112 @@ members:
     refs:
       twitter: jacobjelen
       telegram: jacobjelen
+
+  - id: petr-lukac
+    name: Petr Lukáč
+    img: petr-lukac.jpeg
+    refs:
+      twitter: ruzovejslon
+  
+  - id: petr-mensik
+    name: Petr Menšík
+    img: petr-mensik.jpeg
+    refs:
+      telegram: pmensik
+    confirmed: false
+  
+  - id: mario-havel
+    name: Mario Havel
+    img: mario-havel.jpeg
+    refs:
+      twitter: tmiychao
+    confirmed: false
+
+  - id: vaclav-pavlin
+    name: Václav Pavlín
+    img: vaclav-pavlin.jpeg
+    refs:
+      twitter: vpavlin
+    confirmed: false
+
+  - id: ashhanai
+    name: Naim Ashhab
+    img: ashhanai.jpeg
+    refs:
+      twitter: ashhanai
+    confirmed: false
+  
+  - id: ethan-clime
+    name: Ethan Clime
+    img: ethan-clime.jpg
+    refs:
+      twitter: ethan_clime
+      telegram: ethanclime
+    confirmed: false
+
+  #- id: chrishobcroft
+  #  name: chrishobcroft
+  #  img: chrishobcroft.jpeg
+  #  refs:
+  #    twitter: chrishobcroft
+  #    matrix: chrishobcroft:matrix.org
+  #  confirmed: false
+
+  - id: josef-gattermayer
+    name: Josef Gattermayer
+    img: josef-gattermayer.jpeg
+    refs:
+      twitter: jgattermayer
+    confirmed: false
+
+  - id: ceci
+    name: Ceci
+    img: ceci.jpeg
+    refs:
+      twitter: hyperalchemy
+    confirmed: false
+
+  - id: adam-kracik
+    name: Adam Kracík
+    img: adam-kracik.jpeg
+    refs:
+      twitter: kracik_adam
+    confirmed: false
+
+  - id: roman-mazur
+    name: Roman Mazur
+    img: roman-mazur.jpeg
+    refs:
+      twitter: romanmazur
+    confirmed: false
+
+  - id: cryptonda
+    name: cryptonda
+    img: cryptonda.jpeg
+    refs:
+      twitter: cryptonda
+    confirmed: false
+
+  - id: michaela-malatin
+    name: Michaela Malatín
+    img: michaela-malatin.jpeg
+    refs:
+      twitter: misavkryptu1
+    confirmed: false
+
+  - id: jana-kubatova
+    name: Jana Kubátová
+    img: jana-kubatova.webp
+    refs:
+      twitter: DivergentsNFT
+    confirmed: false
+  
+  - id: kirill-juran
+    name: Kirill Juran
+    img: kirill-juran.jpeg
+    refs:
+      twitter: KirillJuran
+    confirmed: false
 
 projects:
 
@@ -89,6 +196,26 @@ projects:
       twitter: ethbrno
       bsky: ethbrno.cz
     years: 2021-
+  
+  - name: Ackee Blockchain
+    members: [ josef-gattermayer ]
+    img: ackee.jpeg
+    description: Blockchain security by industry-leading auditors.
+    refs:
+      web: ackee.xyz
+      twitter: AckeeBlockchain
+    years: 2021-
+    confirmed: false
+
+  - name: PWN
+    members: [ ashhanai ]
+    img: pwn.jpeg
+    description: P2P lending using any token as collateral.
+    refs:
+      web: pwn.xyz
+      twitter: pwndao
+    years: 2021-
+    confirmed: false
 
   - name: Bankless Czech
     members: [ damsky ]
@@ -99,19 +226,37 @@ projects:
       web: https://web.archive.org/web/20221017125257/https://bankless.cz/
     past: true
 
+  - name: Walnut (prev. Wido)
+    members: [ roman-mazur ]
+    img: walnut.jpeg
+    description: Delve deeper into Cairo transaction execution, swiftly identifying bugs and pinpointing areas for improvement.
+    years: 2021-
+    refs:
+      web: https://walnut.dev/
+    confirmed: false
+
   - name: UTXO Prague
     members: [ tree, coinmandeer ]
     img: utxo.jpg
+    description: The largest community conference on blockchain and cryptocurrencies in the Czech Republic.
     refs:
       web: utxo.cz
       twitter: utxoprague
       github: https://github.com/utxo-foundation/utxo-prague
     past: true
     years: 2022-2023
-    description: The largest community conference on blockchain and cryptocurrencies in the Czech Republic.
+
+  - name: ETHPrague
+    members: [ ceci ]
+    img: ethprague.jpeg
+    description: Solarpunk conference and a hackathon in Prague, Czech Republic.
+    refs:
+      web: ethprague.com
+    years: 2022-
+    confirmed: false
 
   - name: BeerFi Prague
-    members: [ radek ]
+    members: [ radek, ethan-clime ]
     img: beerfi.jpg
     description: Every Tuesday on the last week of the month, we bring together programmers in Web3.
     refs:
@@ -119,7 +264,7 @@ projects:
     years: 2022-
 
   - name: Develit
-    members: [ petr-klein, radek, coinmandeer ]
+    members: [ petr-klein, radek, coinmandeer, cryptonda ]
     img: develit.png
     description: We build tailor-made web3 projects.
     refs:
@@ -152,6 +297,34 @@ projects:
     years: 2022-2024
     past: true
 
+  - name: KryptoSpace
+    members: [ petr-lukac ]
+    img: kryptospace.jpeg
+    description: Czech podcast about cryptocurrencies.
+    years: 2022-
+    refs:
+      web: kryptospace.cz
+
+  - name: "ERC-5646: Token State Fingerprint"
+    members: [ ashhanai ]
+    img: erc.webp
+    description: The minimum interface required to unambiguously identify the state of a mutable token without knowledge of implementation details.
+    years: "2022"
+    past: true
+    refs:
+      web: https://eips.ethereum.org/EIPS/eip-5646
+    confirmed: false
+
+  - name: Proof-of-Cat
+    members: [ mario-havel ]
+    img: proof-of-cat.png
+    description: Generating randomness for cryptographic systems, utilizing entropy of domestic felines, also known as cats.
+    years: 2022-
+    confirmed: false
+    refs:
+      web: proofof.cat
+      github: https://github.com/taxmeifyoucan/proof-of-cat
+
   - name: Donat.network
     members: [ jacob-jelen ]
     img: donat-network.jpg
@@ -160,6 +333,16 @@ projects:
       web: donat.network
       twitter: Donat_Network
     years: 2023-
+
+  - name: NFT Insights
+    members: [ michaela-malatin ]
+    img: nft-insights.png
+    description: Cultivating web3 ecosystem with an educational content.
+    refs:
+      web: www.nftinsights.io
+      twitter: NFTInsightsCZ
+    years: 2023-
+    confirmed: false
 
   - name: L2Loft Prague
     members: [ tree, coinmandeer ]
@@ -181,6 +364,17 @@ projects:
       twitter: prgblockweek
       github: https://github.com/prgblockweek/prague-blockchain-week
     years: "2023"
+
+  - name: Wake
+    members: [ josef-gattermayer ]
+    img: wake.jpeg
+    description: Python-based development and testing framework for Solidity and cross-chain fuzzing.
+    refs:
+      web: getwake.io
+      twitter: WakeFramework
+      github: https://github.com/Ackee-Blockchain/wake
+    years: 2023-
+    confirmed: false
 
   - name: CZKC
     members: [ radek, petr-klein ]
@@ -227,6 +421,23 @@ projects:
       web: protolayers.dev
       twitter: ProtoLayers
     years: 2024-
+
+  - name: Gwei.cz Broadcast Unit
+    members: [ tree, coinmandeer ]
+    img: gweicz-broadcast.webp
+    description: Recording and broadcasting service as public good for local events.
+    refs:
+      web: https://github.com/gweicz/broadcast-setup
+    years: 2024-
+  
+  - name: Logos Assembly Brno
+    members: [ vaclav-pavlin ]
+    img: logos-assembly-brno.avif
+    description: Building and sustaining a fully decentralised, privacy-preserving, and politically neutral technology stack in the spirit of the cypherpunks.
+    refs:
+      web: https://lu.ma/la3
+    years: 2024-
+    confirmed: false
 
   - name: Onchain Brno
     members: [ tree, damsky ]

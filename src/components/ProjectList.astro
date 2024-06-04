@@ -10,20 +10,20 @@ function fixLink (url) {
 }
 
 function memberIcon (id) {
-    const m = members.find(m => m.id === id)
+    const m = members.find(m => m.id === id && m.confirmed !== false)
     if (!m) {
         return null
     }
     return `<img src="/images/members/${m.img}" title="${m.name}" alt="${m.name}" class="rounded-full w-6 aspect-square object-cover" />`
 }
 
-const arr = projects.filter(p => past ? p.past === true : p.past !== true).reverse()
+const arr = projects.filter(p => past ? p.past === true : p.past !== true).filter(p => p.confirmed !== false).reverse()
 ---
 
 
 <div class="not-prose">
     {arr.map(p => (
-        <div class="flex gap-4 mb-4 py-2 px-2 items-center hover:bg-gray-100 rounded-lg w-full group">
+        <div class="flex gap-4 mb-4 py-2 px-2 items-center hover:bg-gray-100 rounded-lg w-full group" class:list={[p.confirmed === false ? 'opacity-50' : '']}>
             <div class="shrink-0"><img src={'/images/projects/'+p.img} class="aspect-square object-cover rounded-xl w-20" /></div>
             <div class="grow">
                 <div class="flex flex-wrap gap-2 items-center w-full">

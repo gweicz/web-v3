@@ -26,7 +26,7 @@ const arr = projects.filter(p => past ? p.past === true : p.past !== true).rever
         <div class="flex gap-4 mb-4 py-2 px-2 items-center hover:bg-gray-100 rounded-lg w-full group">
             <div class="shrink-0"><img src={'/images/projects/'+p.img} class="aspect-square object-cover rounded-xl w-16" /></div>
             <div class="grow">
-                <div class="flex gap-2 items-center w-full">
+                <div class="flex flex-wrap gap-2 items-center w-full">
                     <div class="font-semibold">
                         {p.refs?.web && (
                             <a href={fixLink(p.refs.web)} class="hover:underline">{p.name}</a>
@@ -37,7 +37,7 @@ const arr = projects.filter(p => past ? p.past === true : p.past !== true).rever
                     <div class="grow text-xs">
                         <Fragment set:html={renderRefs(p.refs)} />
                     </div>
-                    <div class="flex gap-1 opacity-50 group-hover:opacity-100">
+                    <div class="flex gap-1 opacity-25 group-hover:opacity-100">
                         {p.members.map(m => (
                             <Fragment set:html={memberIcon(m)} />
                         ))}

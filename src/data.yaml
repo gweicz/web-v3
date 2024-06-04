@@ -67,7 +67,7 @@ projects:
     refs:
       web: bohemiandao.cz
       twitter: bohemiandao
-    years: 2020-
+    years: 2021-
     description: An experimental non-profit DAO created to fund local projects supporting education and adoption of the Ethereum platform and Decentralized Finance (DeFi).
 
   - name: ETHBrno
@@ -80,7 +80,7 @@ projects:
       bsky: ethbrno.cz
     years: 2021-
 
-  - name: Bankless.cz
+  - name: Bankless Czech
     members: [ damsky ]
     img: banklesscz.png
     description: Local information portal in Czech language.

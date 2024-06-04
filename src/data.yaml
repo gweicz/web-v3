@@ -54,6 +54,13 @@ members:
     img: petr-lukac.jpeg
     refs:
       twitter: ruzovejslon
+
+  - id: ethan-clime
+    name: Ethan Clime
+    img: ethan-clime.jpg
+    refs:
+      twitter: ethan_clime
+      telegram: ethanclime
   
   - id: petr-mensik
     name: Petr Menšík
@@ -80,14 +87,6 @@ members:
     img: ashhanai.jpeg
     refs:
       twitter: ashhanai
-    confirmed: false
-  
-  - id: ethan-clime
-    name: Ethan Clime
-    img: ethan-clime.jpg
-    refs:
-      twitter: ethan_clime
-      telegram: ethanclime
     confirmed: false
 
   #- id: chrishobcroft

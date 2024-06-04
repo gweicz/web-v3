@@ -11,7 +11,7 @@ function shuffleArr (array){
     return array
 }
 
-const arr = shuffleArr(members).filter(m => m.confirmed !== null).sort((x, y) => x.confirmed === false ? 1 : -1)
+const arr = shuffleArr(members).filter(m => m.confirmed !== false).sort((x, y) => x.confirmed === false ? 1 : -1)
 ---
 
 

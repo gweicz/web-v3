@@ -80,7 +80,6 @@ members:
     img: vaclav-pavlin.jpeg
     refs:
       twitter: vpavlin
-    confirmed: false
 
   - id: ashhanai
     name: Naim Ashhab
@@ -453,7 +452,6 @@ projects:
     refs:
       web: https://lu.ma/la3
     years: 2024-
-    confirmed: false
 
   - name: Onchain Brno
     members: [ tree, damsky ]

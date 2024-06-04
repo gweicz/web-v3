@@ -60,7 +60,6 @@ members:
     img: petr-mensik.jpeg
     refs:
       telegram: pmensik
-    confirmed: false
   
   - id: mario-havel
     name: Mario Havel
@@ -185,6 +184,15 @@ projects:
     refs:
       web: bohemiandao.cz
       twitter: bohemiandao
+    years: 2021-
+
+  - name: Polkadotters
+    members: [ petr-mensik ]
+    img: polkadotters.jpeg
+    description: Local Polkadot community and validator and collator service.
+    refs:
+      web: polkadotters.com
+      twitter: polkadotterss
     years: 2021-
 
   - name: ETHBrno

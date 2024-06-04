@@ -242,6 +242,15 @@ projects:
       web: https://walnut.dev/
     confirmed: false
 
+  - name: AgorApp
+    members: [ ethan-clime ]
+    img: agorapp.jpeg
+    description: "Your one-stop platform for learning All Things Web3 Development: learn, compete, build."
+    refs:
+      web: agorapp.dev
+      twitter: agorappDAO
+    years: 2022-
+
   - name: UTXO Prague
     members: [ tree, coinmandeer ]
     img: utxo.jpg

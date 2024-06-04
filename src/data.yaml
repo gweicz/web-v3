@@ -53,22 +53,32 @@ projects:
   - name: Gwei.cz Legacy
     members: [ tree, coinmandeer, radek, cryptomari0 ]
     img: gweicz-legacy.png
+    description: The first & second era (5 years) of the Gwei.cz community.
     refs:
       web: legacy.gwei.cz
       twitter: gweicz
       matrix: "#gweicz:gwei.cz"
     past: true
     years: 2020-2025
-    description: The first & second era (5 years) of the Gwei.cz community.
+
+  - name: DeFi Toolkit
+    members: [ tree ]
+    img: defi-toolkit.webp
+    description: Curated list of best tools for user of Ethereum (DeFi) ecosystem.
+    refs:
+      web: https://hackmd.io/@gweicz/defi-toolkit
+      github: https://github.com/gweicz/defi-toolkit
+    past: true
+    years: 2020-2022
 
   - name: BohemianDAO
-    members: [ tree, radek, coinmandeer ]
+    members: []
     img: bohemiandao.jpg
+    description: An experimental non-profit DAO created to fund local projects supporting education and adoption of the Ethereum platform and Decentralized Finance (DeFi).
     refs:
       web: bohemiandao.cz
       twitter: bohemiandao
     years: 2021-
-    description: An experimental non-profit DAO created to fund local projects supporting education and adoption of the Ethereum platform and Decentralized Finance (DeFi).
 
   - name: ETHBrno
     members: [ tree ]
@@ -95,6 +105,7 @@ projects:
     refs:
       web: utxo.cz
       twitter: utxoprague
+      github: https://github.com/utxo-foundation/utxo-prague
     past: true
     years: 2022-2023
     description: The largest community conference on blockchain and cryptocurrencies in the Czech Republic.
@@ -167,11 +178,12 @@ projects:
     past: true
     refs:
       web: prgblockweek.com
-      twitter: Donat_Network
+      twitter: prgblockweek
+      github: https://github.com/prgblockweek/prague-blockchain-week
     years: "2023"
 
   - name: CZKC
-    members: [ radek ]
+    members: [ radek, petr-klein ]
     img: czkc.png
     description: Fiat-collateralized CZK stablecoin.
     refs:
@@ -187,6 +199,7 @@ projects:
       web: web3privacy.info
       twitter: web3privacy
       bsky: web3privacy.info
+      github: https://github.com/web3privacy
     years: 2023-
 
   - name: EthCzech
@@ -222,4 +235,5 @@ projects:
     refs:
       web: onchainbrno.com
       twitter: OnchainBrno
+      github: https://github.com/onchainbrno/ob24
     years: 2024-

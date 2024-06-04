@@ -23,5 +23,8 @@ export function renderRefs (refs) {
     if (refs.signalMe) {
         out.push(`<a href=${refs.signalMe} class="hover:underline">signal</a>`)
     }
+    if (refs.github) {
+        out.push(`<a href=${refs.github} class="hover:underline">github</a>`)
+    }
     return '<span class="opacity-75">'+out.join(', ')+'</span>'
 }

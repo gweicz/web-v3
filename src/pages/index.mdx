@@ -29,7 +29,7 @@ import MemberList from "../components/MemberList.astro";
 
 <MemberList />
 
-## Active Projects ({projects.filter(p => p.past !== true).length})
+## Active Projects ({projects.filter(p => p.past !== true && p.confirmed !== false).length})
 
 *(from the newest to the oldest)*
 
@@ -37,7 +37,7 @@ import ProjectList from "../components/ProjectList.astro";
 
 <ProjectList />
 
-## Past Projects ({projects.filter(p => p.past === true).length})
+## Past Projects ({projects.filter(p => p.past === true && p.confirmed !== false).length})
 
 *(from the newest to the oldest)*
 

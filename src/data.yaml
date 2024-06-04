@@ -125,6 +125,12 @@ projects:
       twitter: NFBrainProject
     years: 2022-
 
+  - name: DegenGrupa
+    members: [ coinmandeer, cryptomari0 ]
+    img: degengrupa.webp
+    description: Discord server for degens around Pilsen.
+    years: 2022-
+
   - name: APUS Finance
     members: [ radek, petr-klein, coinmandeer ]
     img: apus.jpg

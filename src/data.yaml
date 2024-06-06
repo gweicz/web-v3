@@ -6,12 +6,12 @@ members:
       twitter: radk
       telegram: r4deks
 
-  - id: damsky
-    name: Damsky
-    img: damsky.jpg
-    refs:
-      twitter: damskyftw
-      telegram: damskyftw
+  #- id: damsky
+  #  name: Damsky
+  #  img: damsky.jpg
+  #  refs:
+  #    twitter: damskyftw
+  #    telegram: damskyftw
 
   - id: tree
     name: Tree
@@ -75,11 +75,11 @@ members:
       twitter: tmiychao
     confirmed: false
 
-  - id: vaclav-pavlin
-    name: Václav Pavlín
-    img: vaclav-pavlin.jpeg
-    refs:
-      twitter: vpavlin
+  #- id: vaclav-pavlin
+  #  name: Václav Pavlín
+  #  img: vaclav-pavlin.jpeg
+  #  refs:
+  #    twitter: vpavlin
 
   - id: ashhanai
     name: Naim Ashhab
@@ -163,7 +163,7 @@ projects:
       twitter: gweicz
       matrix: "#gweicz:gwei.cz"
     past: true
-    years: 2020-2025
+    years: 2020-2024
 
   - name: DeFi Toolkit
     members: [ tree ]
@@ -223,14 +223,14 @@ projects:
     years: 2021-
     confirmed: false
 
-  - name: Bankless Czech
-    members: [ damsky ]
-    img: banklesscz.png
-    description: Local information portal in Czech language.
-    years: 2021-2022
-    refs:
-      web: https://web.archive.org/web/20221017125257/https://bankless.cz/
-    past: true
+  #- name: Bankless Czech
+  #  members: [ damsky ]
+  #  img: banklesscz.png
+  #  description: Local information portal in Czech language.
+  #  years: 2021-2022
+  #  refs:
+  #    web: https://web.archive.org/web/20221017125257/https://bankless.cz/
+  #  past: true
 
   - name: Walnut (prev. Wido)
     members: [ roman-mazur ]
@@ -411,14 +411,14 @@ projects:
       github: https://github.com/web3privacy
     years: 2023-
 
-  - name: EthCzech
-    members: [ damsky ]
-    img: ethczech.webp
-    description: Beginner friendly ethereum community in Czech Republic.
-    refs:
-      web: https://x.com/EthereumCzech
-      twitter: EthereumCzech
-    years: 2023-
+  #- name: EthCzech
+  #  members: [ damsky ]
+  #  img: ethczech.webp
+  #  description: Beginner friendly ethereum community in Czech Republic.
+  #  refs:
+  #    web: https://x.com/EthereumCzech
+  #    twitter: EthereumCzech
+  #  years: 2023-
 
   - name: createx-forge
     members: [ radek ]
@@ -428,14 +428,14 @@ projects:
       web: https://github.com/radeksvarz/createx-forge
     years: 2024-
 
-  - name: ProtoLayers
-    members: [ damsky ]
-    img: protolayers.jpg
-    description: Builder conference advancing ethereum ecosystem one event at at a time.
-    refs:
-      web: protolayers.dev
-      twitter: ProtoLayers
-    years: 2024-
+  #- name: ProtoLayers
+  #  members: [ damsky ]
+  #  img: protolayers.jpg
+  #  description: Builder conference advancing ethereum ecosystem one event at at a time.
+  #  refs:
+  #    web: protolayers.dev
+  #    twitter: ProtoLayers
+  #  years: 2024-
 
   - name: Gwei.cz Broadcast Unit
     members: [ tree, coinmandeer ]
@@ -445,20 +445,28 @@ projects:
       web: https://github.com/gweicz/broadcast-setup
     years: 2024-
   
-  - name: Logos Assembly Brno
-    members: [ vaclav-pavlin ]
-    img: logos-assembly-brno.avif
-    description: Building and sustaining a fully decentralised, privacy-preserving, and politically neutral technology stack in the spirit of the cypherpunks.
-    refs:
-      web: https://lu.ma/la3
-    years: 2024-
+  #- name: Logos Assembly Brno
+  #  members: [ vaclav-pavlin ]
+  #  img: logos-assembly-brno.avif
+  #  description: Building and sustaining a fully decentralised, privacy-preserving, and politically neutral technology stack in the spirit of the cypherpunks.
+  #  refs:
+  #    web: https://lu.ma/la3
+  #  years: 2024-
 
   - name: Onchain Brno
-    members: [ tree, damsky ]
+    members: [ tree ]
     img: onchainbrno.jpg
     description: A federation of events around cryptocurrencies happening at the end of October 2024 in Brno, Czech Republic.
     refs:
       web: onchainbrno.com
       twitter: OnchainBrno
       github: https://github.com/onchainbrno/ob24
+    years: 2024-
+
+  - name: Gwei.cz Lunarpunk Division ⟠
+    members: [ tree ]
+    img: gweicz-lunarpunk.jpg
+    description: Embracing discomfort, empowering discourse.
+    refs:
+      web: https://x.com/gweicz
     years: 2024-

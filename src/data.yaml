@@ -454,7 +454,7 @@ projects:
   #  years: 2024-
 
   - name: Onchain Brno
-    members: [ tree ]
+    members: [ tree, petr-mensik ]
     img: onchainbrno.jpg
     description: A federation of events around cryptocurrencies happening at the end of October 2024 in Brno, Czech Republic.
     refs:

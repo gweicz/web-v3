@@ -1,13 +1,8 @@
 ---
 import { projects, members } from '../data.yaml';
-import { renderRefs } from '../lib/utils.js';
+import { renderRefs, fixLink } from '../lib/utils.js';
 
 const { past = false } = Astro.props;
-
-function fixLink (url) {
-    if (url.match(/^http/)) return url
-    return `https://${url}`
-}
 
 function memberIcon (id) {
     const m = members.find(m => m.id === id && m.confirmed !== false)

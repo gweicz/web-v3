@@ -28,3 +28,16 @@ export function renderRefs (refs) {
     }
     return '<span class="opacity-75">'+out.join(', ')+'</span>'
 }
+
+export function fixLink (url) {
+    if (url.match(/^http/)) return url
+    return `https://${url}`
+}
+
+export function shuffleArr (array){
+    for (var i = array.length - 1; i > 0; i--) {
+        var rand = Math.floor(Math.random() * (i + 1));
+        [array[i], array[rand]] = [array[rand], array[i]]
+    }
+    return array
+}

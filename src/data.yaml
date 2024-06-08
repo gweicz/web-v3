@@ -246,6 +246,14 @@ projects:
       web: https://walnut.dev/
     confirmed: false
 
+  - name: Blockchain Brno
+    members: [ petr-mensik ]
+    img: blockchain-brno.jpg
+    description: Meetups about blockchain and decentralized technologies in Brno.
+    years: 2021-
+    refs:
+      web: https://www.meetup.com/blockchain-brno/
+
   - name: AgorApp
     members: [ ethan-clime ]
     img: agorapp.jpeg

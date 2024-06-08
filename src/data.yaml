@@ -159,6 +159,24 @@ members:
 
 projects:
 
+  - name: OpenCrypto
+    members: [ tree, coinmandeer, cryptomari0 ]
+    img: opencrypto.jpeg
+    description: Cryptoassets reference dataset experiments.
+    refs:
+      web: https://github.com/opencrypto-io
+    past: true
+    years: "2018"
+  
+  - name: dapp.js
+    members: [ tree ]
+    img: dappjs.webp
+    description: Framework that provides a single, common abstraction interface of Ethereum smart-contracts.
+    refs:
+      web: https://github.com/opencrypto-io/dapp.js
+    past: true
+    years: "2018"
+
   - name: Gwei.cz Legacy
     members: [ tree, coinmandeer, radek, cryptomari0 ]
     img: gweicz-legacy.png

@@ -7,7 +7,9 @@ const arr = shuffleArr(projects.filter(p => p.confirmed !== false))
 
 <div class="flex flex-wrap gap-1 mb-8 mt-4 not-prose">
     {arr.map((p) => (
-        <a href={p.refs?.web && fixLink(p.refs?.web)} class="object shrink-0 w-8 h-8 opacity-50 hover:opacity-100"><img src={'/images/projects/'+p.img} class="aspect-square object-cover rounded-lg w-8" /></a>
+        <a href={p.refs?.web && fixLink(p.refs?.web)} class="object shrink-0 w-8 h-8 opacity-50 hover:opacity-100">
+            <img src={'/images/projects/'+p.img} class="aspect-square object-cover rounded-lg w-8" alt={p.name} title={p.name} />
+        </a>
     ))}
 </div>
 

@@ -66,6 +66,12 @@ members:
     img: petr-mensik.jpeg
     refs:
       telegram: pmensik
+
+  - id: m0xt
+    name: m0xt
+    img: m0xt.jpg
+    refs:
+      twitter: m0xt_
   
   - id: mario-havel
     name: Mario Havel

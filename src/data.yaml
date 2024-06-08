@@ -390,14 +390,14 @@ projects:
     years: 2023-
     confirmed: false
 
-  - name: CZKC
-    members: [ radek, petr-klein ]
-    img: czkc.png
-    description: Fiat-collateralized CZK stablecoin.
-    refs:
-      web: czkc.io
-      twitter: CZKC_cz
-    years: 2023-
+  #- name: CZKC
+  #  members: [ radek, petr-klein ]
+  #  img: czkc.png
+  #  description: Fiat-collateralized CZK stablecoin.
+  #  refs:
+  #    web: czkc.io
+  #    twitter: CZKC_cz
+  #  years: 2023-
 
   - name: Web3Privacy Now
     members: [ coinmandeer, cryptomari0, petr-klein ]

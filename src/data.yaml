@@ -169,7 +169,7 @@ projects:
       github: https://github.com/opencrypto-io
     past: true
     years: "2018"
-    tags: [ experiment ]
+    tags: [ experiment, platforms ]
   
   - name: dapp.js
     members: [ tree ]
@@ -180,7 +180,7 @@ projects:
       github: https://github.com/opencrypto-io/dapp.js
     past: true
     years: "2018"
-    tags: [ tools, experiment ]
+    tags: [ tools, experiment, devs ]
 
   - name: Gwei.cz Legacy
     members: [ tree, coinmandeer, radek, cryptomari0 ]
@@ -314,7 +314,7 @@ projects:
       twitter: indices_fi
     years: "2022"
     past: true
-    tags: [ platform ]
+    tags: [ platforms ]
 
   - name: UTXO Prague
     members: [ tree, coinmandeer ]
@@ -344,7 +344,7 @@ projects:
     refs:
       web: beerfi.gwei.cz
     years: 2022-
-    tags: [ events ]
+    tags: [ events, devs ]
 
   - name: Develit
     members: [ petr-klein, radek, coinmandeer, cryptonda ]
@@ -355,7 +355,7 @@ projects:
       twitter: develitio
       github: https://github.com/develit-io
     years: 2022-
-    tags: [ services ]
+    tags: [ services, devs ]
 
   - name: Non Fungible Brain
     members: [ radek ]
@@ -507,7 +507,7 @@ projects:
       web: https://github.com/radeksvarz/createx-forge
       github: https://github.com/radeksvarz/createx-forge
     years: 2024-
-    tags: [ tools, public-goods ]
+    tags: [ tools, public-goods, devs ]
 
   #- name: ProtoLayers
   #  members: [ damsky ]

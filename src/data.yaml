@@ -73,6 +73,13 @@ members:
     img: m0xt.jpg
     refs:
       twitter: m0xt_
+
+  - id: kvbik
+    name: Santiago Alto
+    img: kvbik.png
+    refs:
+      twitter: kvbik
+      github: https://github.com/kvbik
   
   - id: mario-havel
     name: Mario Havel
@@ -412,6 +419,15 @@ projects:
     refs:
       web: proofof.cat
       github: https://github.com/taxmeifyoucan/proof-of-cat
+
+  - name: The Open Source Orchestra
+    members: [ kvbik ]
+    img: open-source-orchestra.jpeg
+    description: Musicians promoting collaboration and artistic engagement.
+    refs:
+      twitter: https://x.com/opensourceorch
+    years: 2022-
+    tags: [ music, community ]
 
   - name: Donat.network
     members: [ jacob-jelen ]

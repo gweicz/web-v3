@@ -128,7 +128,6 @@ members:
     img: roman-mazur.jpeg
     refs:
       twitter: romanmazur
-    confirmed: false
 
   - id: cryptonda
     name: cryptonda
@@ -283,7 +282,6 @@ projects:
     years: 2021-
     refs:
       web: https://walnut.dev/
-    confirmed: false
 
   - name: Blockchain Brno
     members: [ petr-mensik ]
@@ -499,6 +497,16 @@ projects:
   #    twitter: EthereumCzech
   #  years: 2023-
 
+  - name: Cairo VM Codes
+    members: [ roman-mazur ]
+    img: cairovm-codes.png
+    description: A web app to compile Cairo programs into Sierra and CASM with step-through execution capabilities.
+    refs:
+      web: https://cairovm.codes/
+      github: https://github.com/walnuthq/cairovm.codes
+    years: 2024-
+    tags: [ tools, devs ]
+
   - name: createx-forge
     members: [ radek ]
     img: createx.webp
@@ -507,7 +515,7 @@ projects:
       web: https://github.com/radeksvarz/createx-forge
       github: https://github.com/radeksvarz/createx-forge
     years: 2024-
-    tags: [ tools, public-goods, devs ]
+    tags: [ tools, devs ]
 
   #- name: ProtoLayers
   #  members: [ damsky ]

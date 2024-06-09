@@ -1,8 +1,11 @@
 
-export function renderRefs (refs) {
+export function renderRefs (refs, renderWeb = false) {
     const out = []
     if (!refs) {
         return out
+    }
+    if (renderWeb && refs.web) {
+        out.push(`<a href=${fixLink(refs.web)} class="hover:underline">web</a>`)
     }
     if (refs.twitter) {
         out.push(`<a href=${'https://twitter.com/' + refs.twitter} class="hover:underline">twitter</a>`)

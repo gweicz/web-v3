@@ -425,6 +425,7 @@ projects:
     img: open-source-orchestra.jpeg
     description: Musicians promoting collaboration and artistic engagement.
     refs:
+      web: https://x.com/opensourceorch
       twitter: https://x.com/opensourceorch
     years: 2022-
     tags: [ music, community ]

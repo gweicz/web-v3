@@ -216,6 +216,15 @@ projects:
       twitter: polkadotterss
     years: 2021-
 
+  - name: Podcast Krypto Insider
+    members: [ petr-lukac ]
+    img: kryptoinsider.jpeg
+    description: Co jsou to kryptoměny, jak funguje bitcoin a ethereum a jak o ně nepřijít kvůli hloupé chybě?
+    refs:
+      web: https://podcasty.hn.cz/tagy/Podcasty-Krypto-Insider-357710
+    years: 2021-2022
+    past: true
+
   - name: ETHBrno
     members: [ tree ]
     img: ethbrno.jpg
@@ -280,6 +289,16 @@ projects:
       web: agorapp.dev
       twitter: agorappDAO
     years: 2022-
+
+  - name: Indices.fi
+    members: [ m0xt, coinmandeer ]
+    img: indices.jpg
+    description: We guide you to invest in the best crypto indices out there.
+    refs:
+      web: https://x.com/indices_fi
+      twitter: indices_fi
+    years: "2022"
+    past: true
 
   - name: UTXO Prague
     members: [ tree, coinmandeer ]

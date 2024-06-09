@@ -41,6 +41,13 @@ const arr = projects.filter(p => past ? p.past === true : p.past !== true).filte
                 {p.description && (
                     <div class="prose-inline text-sm">{p.description}</div>
                 )}
+                {p.tags && (
+                    <div class="mt-1.5 flex gap-2">
+                        {p.tags.map((tag) => (
+                            <div class="bg-gray-100 rounded-xl py-0.5 px-2 text-xs text-black/50">{tag}</div>
+                        ))}
+                    </div>
+                )}
             </div>
         </div>
     ))}

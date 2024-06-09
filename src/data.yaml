@@ -168,6 +168,7 @@ projects:
       web: https://github.com/opencrypto-io
     past: true
     years: "2018"
+    tags: [ experiment ]
   
   - name: dapp.js
     members: [ tree ]
@@ -177,6 +178,7 @@ projects:
       web: https://github.com/opencrypto-io/dapp.js
     past: true
     years: "2018"
+    tags: [ tools, experiment ]
 
   - name: Gwei.cz Legacy
     members: [ tree, coinmandeer, radek, cryptomari0 ]
@@ -188,6 +190,7 @@ projects:
       matrix: "#gweicz:gwei.cz"
     past: true
     years: 2020-2024
+    tags: [ community ]
 
   - name: DeFi Toolkit
     members: [ tree ]
@@ -198,6 +201,7 @@ projects:
       github: https://github.com/gweicz/defi-toolkit
     past: true
     years: 2020-2022
+    tags: [ DeFi, tools ]
 
   - name: BohemianDAO
     members: []
@@ -207,6 +211,7 @@ projects:
       web: bohemiandao.cz
       twitter: bohemiandao
     years: 2021-
+    tags: [ DAO, public-goods, experiment ]
 
   - name: Polkadotters
     members: [ petr-mensik ]
@@ -216,6 +221,7 @@ projects:
       web: polkadotters.com
       twitter: polkadotterss
     years: 2021-
+    tags: [ community ]
 
   - name: Podcast Krypto Insider
     members: [ petr-lukac ]
@@ -225,6 +231,7 @@ projects:
       web: https://podcasty.hn.cz/tagy/Podcasty-Krypto-Insider-357710
     years: 2021-2022
     past: true
+    tags: [ podcasts ]
 
   - name: ETHBrno
     members: [ tree ]
@@ -235,6 +242,7 @@ projects:
       twitter: ethbrno
       bsky: ethbrno.cz
     years: 2021-
+    tags: [ events, privacy, hackathon ]
   
   - name: Ackee Blockchain
     members: [ josef-gattermayer ]
@@ -281,6 +289,7 @@ projects:
     years: 2021-
     refs:
       web: https://www.meetup.com/blockchain-brno/
+    tags: [ events ]
 
   - name: AgorApp
     members: [ ethan-clime ]
@@ -290,6 +299,7 @@ projects:
       web: agorapp.dev
       twitter: agorappDAO
     years: 2022-
+    tags: [ platforms ]
 
   - name: Indices.fi
     members: [ m0xt, coinmandeer ]
@@ -300,6 +310,7 @@ projects:
       twitter: indices_fi
     years: "2022"
     past: true
+    tags: [ platform ]
 
   - name: UTXO Prague
     members: [ tree, coinmandeer ]
@@ -311,6 +322,7 @@ projects:
       github: https://github.com/utxo-foundation/utxo-prague
     past: true
     years: 2022-2023
+    tags: [ events, public-goods ]
 
   - name: ETHPrague
     members: [ ceci ]
@@ -328,6 +340,7 @@ projects:
     refs:
       web: beerfi.gwei.cz
     years: 2022-
+    tags: [ events ]
 
   - name: Develit
     members: [ petr-klein, radek, coinmandeer, cryptonda ]
@@ -337,6 +350,7 @@ projects:
       web: develit.io
       twitter: develitio
     years: 2022-
+    tags: [ services ]
 
   - name: Non Fungible Brain
     members: [ radek ]
@@ -346,12 +360,14 @@ projects:
       web: https://www.nonfungiblebrain.com/
       twitter: NFBrainProject
     years: 2022-
+    tags: [ research, NFTs ]
 
   - name: DegenGrupa
     members: [ coinmandeer, cryptomari0 ]
     img: degengrupa.webp
     description: Discord community for degens around Pilsen (invite-only).
     years: 2022-
+    tags: [ community ]
 
   - name: APUS Finance
     members: [ radek, petr-klein, coinmandeer ]
@@ -362,6 +378,7 @@ projects:
       twitter: APUS_finance_cs
     years: 2022-2024
     past: true
+    tags: [ DeFi ]
 
   - name: KryptoSpace
     members: [ petr-lukac ]
@@ -370,6 +387,7 @@ projects:
     years: 2022-
     refs:
       web: kryptospace.cz
+    tags: [ podcasts ]
 
   - name: "ERC-5646: Token State Fingerprint"
     members: [ ashhanai ]
@@ -399,6 +417,7 @@ projects:
       web: donat.network
       twitter: Donat_Network
     years: 2023-
+    tags: [ charity, public-goods ]
 
   - name: NFT Insights
     members: [ michaela-malatin ]
@@ -419,6 +438,7 @@ projects:
       web: https://lu.ma/l2loft
       twitter: l2loft
     years: "2023"
+    tags: [ events, experiment ]
 
   - name: Prague Blockchain Week 2023
     members: [ tree, coinmandeer ]
@@ -430,6 +450,7 @@ projects:
       twitter: prgblockweek
       github: https://github.com/prgblockweek/prague-blockchain-week
     years: "2023"
+    tags: [ events, public-goods ]
 
   - name: Wake
     members: [ josef-gattermayer ]
@@ -461,6 +482,7 @@ projects:
       bsky: web3privacy.info
       github: https://github.com/web3privacy
     years: 2023-
+    tags: [ community, privacy ]
 
   #- name: EthCzech
   #  members: [ damsky ]
@@ -478,6 +500,7 @@ projects:
     refs:
       web: https://github.com/radeksvarz/createx-forge
     years: 2024-
+    tags: [ tools, public-goods ]
 
   #- name: ProtoLayers
   #  members: [ damsky ]
@@ -495,6 +518,7 @@ projects:
     refs:
       web: https://github.com/gweicz/broadcast-setup
     years: 2024-
+    tags: [ services, public-goods ]
   
   #- name: Logos Assembly Brno
   #  members: [ vaclav-pavlin ]
@@ -513,6 +537,7 @@ projects:
       twitter: OnchainBrno
       github: https://github.com/onchainbrno/ob24
     years: 2024-
+    tags: [ events ]
 
   - name: Gwei.cz Lunarpunk Division ⟠
     members: [ tree ]
@@ -521,3 +546,4 @@ projects:
     refs:
       web: https://x.com/gweicz
     years: 2024-
+    tags: [ privacy, events ]

@@ -166,6 +166,7 @@ projects:
     description: Cryptoassets reference dataset experiments.
     refs:
       web: https://github.com/opencrypto-io
+      github: https://github.com/opencrypto-io
     past: true
     years: "2018"
     tags: [ experiment ]
@@ -176,6 +177,7 @@ projects:
     description: Framework that provides a single, common abstraction interface of Ethereum smart-contracts.
     refs:
       web: https://github.com/opencrypto-io/dapp.js
+      github: https://github.com/opencrypto-io/dapp.js
     past: true
     years: "2018"
     tags: [ tools, experiment ]
@@ -210,6 +212,7 @@ projects:
     refs:
       web: bohemiandao.cz
       twitter: bohemiandao
+      github: https://github.com/gweicz/bohemiandao
     years: 2021-
     tags: [ DAO, public-goods, experiment ]
 
@@ -298,6 +301,7 @@ projects:
     refs:
       web: agorapp.dev
       twitter: agorappDAO
+      github: https://github.com/agorapp-dao
     years: 2022-
     tags: [ education, platforms ]
 
@@ -349,6 +353,7 @@ projects:
     refs:
       web: develit.io
       twitter: develitio
+      github: https://github.com/develit-io
     years: 2022-
     tags: [ services ]
 
@@ -387,6 +392,7 @@ projects:
     years: 2022-
     refs:
       web: kryptospace.cz
+      twitter: ruzovejslon
     tags: [ podcasts ]
 
   - name: "ERC-5646: Token State Fingerprint"
@@ -499,6 +505,7 @@ projects:
     description: Use CreateX CREATE3 factory within Foundry Forge projects.
     refs:
       web: https://github.com/radeksvarz/createx-forge
+      github: https://github.com/radeksvarz/createx-forge
     years: 2024-
     tags: [ tools, public-goods ]
 
@@ -517,6 +524,7 @@ projects:
     description: Recording and broadcasting service as public good for local events.
     refs:
       web: https://github.com/gweicz/broadcast-setup
+      github: https://github.com/gweicz/broadcast-setup
     years: 2024-
     tags: [ services, public-goods ]
   
@@ -545,5 +553,6 @@ projects:
     description: Embracing discomfort, empowering discourse.
     refs:
       web: https://x.com/gweicz
+      twitter: gweicz
     years: 2024-
     tags: [ privacy, events ]

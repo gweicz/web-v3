@@ -12,7 +12,7 @@ import FeaturedProjects from "../components/FeaturedProjects.astro";
 
 ## Upcoming Events
 
-* [Gwei.cz calendar on Lu.ma](https://lu.ma/gweicz)
+- [Gwei.cz calendar on Lu.ma](https://lu.ma/gweicz)
 
 <iframe
   src="https://lu.ma/embed/calendar/cal-skKYTNtURW9T1wD/events?lt=light"
@@ -25,11 +25,11 @@ import FeaturedProjects from "../components/FeaturedProjects.astro";
   tabindex="0"
 ></iframe>
 
-import { members, projects } from '../data.yaml'
+import { members, projects } from "../data.yaml";
 
 ## Members ({members.filter(m => m.confirmed !== false).length})
 
-*(in random order)*
+_(in random order)_
 
 import MemberList from "../components/MemberList.astro";
 
@@ -37,7 +37,7 @@ import MemberList from "../components/MemberList.astro";
 
 ## Active Projects of Members ({projects.filter(p => p.past !== true && p.confirmed !== false).length})
 
-*(from the newest to the oldest)*
+_(from the newest to the oldest)_
 
 import ProjectList from "../components/ProjectList.astro";
 
@@ -45,18 +45,40 @@ import ProjectList from "../components/ProjectList.astro";
 
 ## Past Projects of Members ({projects.filter(p => p.past === true && p.confirmed !== false).length})
 
-*(from the newest to the oldest)*
+_(from the newest to the oldest)_
 
 <ProjectList past="true" />
 
-## Rules
+## Basic Rules
 
 1. All members are equal.
 1. No governance (or leadership).
 1. No official communication channels (like Twitter).
-1. To become a new member you must be an active builder (*Proof of Work*) and be invited by a current member.
+1. To become a new member you must be an active builder (_Proof of Work_) and be invited by a current member.
 1. A majority of members may decide to remove a member.
 1. All members are listed on the website where everyone has the opportunity to list their projects.
+
+## Code of Conduct
+
+1. It’s impossible to change other people. We can only change ourselves.
+1. We take ownership for our thoughts, beliefs, words, and actions.
+1. We don’t spread rumors.
+1. We don’t talk behind someone’s back.
+1. We resolve disagreements one-on-one and don’t drag other people into the problem.
+1. We don’t blame problems on others. When we feel like blaming, we take it as an invitation to reflect on how we might be part of the problem (and the solution).
+1. We focus on strengths more than weaknesses, on opportunities more than problems.
+1. We bring our whole selves to the group, valuing authenticity, emotional expression, and the diverse perspectives that come from being fully human.
+1. We empower each other to make decisions and take actions without needing approval, trusting in everyone’s capability and judgment.
+1. We see mistakes and failures as opportunities for learning and growth, and we continuously seek to improve ourselves and our processes.
+1. We commit to openness and honesty in all our communications, sharing information freely and proactively.
+1. We make and keep commitments with integrity, recognizing that our reliability is crucial for mutual trust and effective collaboration.
+
+### Conflict Resolution Process
+
+- In the first phase, the two people sit together and try to sort it out privately.
+- If they can’t find a solution agreeable to both, they nominate a member they both trust to act as a mediator. The mediator doesn’t impose a decision. Rather he or she supports the participants in coming to their own solution.
+- If mediation fails, a panel of topic-relevant members is convened. Again the panel does not impose a solution.
+- If resolution is not found, the other members they both trust might be called into the panel to add to the panel’s moral weight (but again, not to impose a solution).
 
 ## FAQ
 
@@ -70,7 +92,7 @@ All previous internal Gwei.cz activities such as Twitter, Matrix, Forum and [oth
 
 ### How to become a member?
 
-*Are you an active builder in the Czech-Slovak community? Join us!*
+_Are you an active builder in the Czech-Slovak community? Join us!_
 
 You can become a member by being invited by a current member.
 
@@ -78,8 +100,10 @@ You can become a member by being invited by a current member.
 
 https://github.com/gweicz/web-v3
 
-*Feel free to edit!*
+_Feel free to edit!_
 
 ## License
 
-<a href="https://creativecommons.org/public-domain/cc0/"><img src="/cc0.svg" title="CC0" /></a>
+<a href="https://creativecommons.org/public-domain/cc0/">
+  <img src="/cc0.svg" title="CC0" />
+</a>

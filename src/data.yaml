@@ -221,7 +221,7 @@ projects:
       web: polkadotters.com
       twitter: polkadotterss
     years: 2021-
-    tags: [ community ]
+    tags: [ community, services ]
 
   - name: Podcast Krypto Insider
     members: [ petr-lukac ]
@@ -299,7 +299,7 @@ projects:
       web: agorapp.dev
       twitter: agorappDAO
     years: 2022-
-    tags: [ platforms ]
+    tags: [ education, platforms ]
 
   - name: Indices.fi
     members: [ m0xt, coinmandeer ]
@@ -482,7 +482,7 @@ projects:
       bsky: web3privacy.info
       github: https://github.com/web3privacy
     years: 2023-
-    tags: [ community, privacy ]
+    tags: [ privacy, community, research, events ]
 
   #- name: EthCzech
   #  members: [ damsky ]

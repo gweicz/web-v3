@@ -285,8 +285,8 @@ projects:
   - name: Walnut (prev. Wido)
     members: [ roman-mazur ]
     img: walnut.jpeg
-    description: Delve deeper into Cairo transaction execution, swiftly identifying bugs and pinpointing areas for improvement.
-    years: 2021-
+    description: Walnut is a blockchain transaction debugger and monitoring service starting on Starknet.
+    years: 2024-
     refs:
       web: https://walnut.dev/
 

@@ -8,7 +8,7 @@ export function renderRefs (refs, renderWeb = false) {
         out.push(`<a href=${fixLink(refs.web)} class="hover:underline">web</a>`)
     }
     if (refs.twitter) {
-        out.push(`<a href=${'https://twitter.com/' + refs.twitter} class="hover:underline">twitter</a>`)
+        out.push(`<a href=${'https://twitter.com/' + refs.twitter} class="hover:underline">𝕏</a>`)
     }
     if (refs.bsky) {
         out.push(`<a href=${'https://bsky.app/profile/' + refs.bsky} class="hover:underline">bluesky</a>`)

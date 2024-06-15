@@ -80,6 +80,12 @@ members:
     refs:
       twitter: kvbik
       github: https://github.com/kvbik
+
+  - id: dominikz
+    name: Dominik
+    img: dominikz.jpg
+    refs:
+      twitter: D0minik_Z
   
   - id: mario-havel
     name: Mario Havel
@@ -334,13 +340,12 @@ projects:
     tags: [ events, public-goods ]
 
   - name: ETHPrague
-    members: [ ceci ]
+    members: [ dominikz ]
     img: ethprague.jpeg
     description: Solarpunk conference and a hackathon in Prague, Czech Republic.
     refs:
       web: ethprague.com
     years: 2022-
-    confirmed: false
 
   - name: BeerFi Prague
     members: [ radek, ethan-clime ]
@@ -576,8 +581,5 @@ projects:
     members: [ tree ]
     img: gweicz-lunarpunk.jpg
     description: Embracing discomfort, empowering discourse.
-    refs:
-      web: https://x.com/gweicz
-      twitter: gweicz
     years: 2024-
     tags: [ privacy, events ]

@@ -17,7 +17,6 @@ members:
     img: tree.jpg
     refs:
       bsky: tree.fail
-      telegram: treecz
       matrix: tree:gwei.cz
 
   - id: petr-klein

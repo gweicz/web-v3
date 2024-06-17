@@ -14,7 +14,7 @@ members:
 
   - id: tree
     name: Tree
-    img: tree.jpg
+    img: tree.png
     refs:
       bsky: tree.fail
       matrix: tree:gwei.cz

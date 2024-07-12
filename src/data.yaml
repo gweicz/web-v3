@@ -575,7 +575,7 @@ projects:
   #    web: https://lu.ma/la3
   #  years: 2024-
 
-  - name: Onchain Brno
+  - name: Unchained Brno
     members: [ tree, petr-mensik ]
     img: onchainbrno.jpg
     description: A federation of events around cryptocurrencies happening at the end of October 2024 in Brno, Czech Republic.
@@ -592,3 +592,14 @@ projects:
     description: Embracing discomfort, empowering discourse.
     years: 2024-
     tags: [ privacy, events ]
+
+  - name: Bluesky Česko
+    members: [ tree ]
+    img: bsky.jpg
+    description: Czech community of AT Protocol/Bluesky fans.
+    refs:
+      web: bsky.cz
+      twitter: bskyczech
+      bsky: bsky.cz 
+    years: 2024-
+    tags: [ community, social-networks ]

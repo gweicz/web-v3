@@ -201,6 +201,7 @@ projects:
       web: legacy.gwei.cz
       twitter: gweicz
       matrix: "#gweicz:gwei.cz"
+      bsky: gwei.cz
     past: true
     years: 2020-2024
     tags: [ community ]

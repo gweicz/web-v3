@@ -12,7 +12,7 @@ function memberIcon (id) {
     return `<img src="/images/members/${m.img}" title="${m.name}" alt="${m.name}" class="rounded-full w-6 aspect-square object-cover" />`
 }
 
-const arr = projects.filter(p => past ? p.past === true : p.past !== true).filter(p => p.confirmed !== false).reverse()
+const arr = projects.filter(p => past ? p.past === true : p.past !== true).reverse()
 ---
 
 

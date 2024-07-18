@@ -10,7 +10,7 @@ import FeaturedProjects from "../components/FeaturedProjects.astro";
 
 <FeaturedProjects />
 
-[Upcoming Events](#upcoming-events) | [Members](#members) | [Active Projects of Members](#active-projects) | [Past Project of Members](#past-projects) | [Basic Rules](#basic-rules) | [Code of Conduct](#code-of-conduct) | [FAQ](#faq) | [History](#history) | [Source Code](#source-code) | [License](#license)
+[Upcoming Events](#upcoming-events) | [Members](#members) | [Active Projects of Members](#active-projects) | [Past Project of Members](#past-projects) | [Supported protocols and networks](#protocols) | [Basic Rules](#basic-rules) | [Code of Conduct](#code-of-conduct) | [FAQ](#faq) | [History](#history) | [Source Code](#source-code) | [License](#license)
 
 ## Upcoming Events
 
@@ -27,7 +27,7 @@ import FeaturedProjects from "../components/FeaturedProjects.astro";
   tabindex="0"
 ></iframe>
 
-import { members, projects } from "../data.yaml";
+import { members, projects, protocols } from "../data.yaml";
 
 <h2 id="members">
   Members - {members.filter((m) => m.confirmed !== false).length}
@@ -56,6 +56,12 @@ import ProjectList from "../components/ProjectList.astro";
 _(from the newest to the oldest)_
 
 <ProjectList past="true" />
+
+<h2 id="protocols">Supported protocols and networks - {protocols.length}</h2>
+
+import ProtocolsList from "../components/ProtocolsList.astro";
+
+<ProtocolsList />
 
 ## Basic Rules
 

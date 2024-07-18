@@ -681,8 +681,72 @@ projects:
     years: 2024-
     tags: [ community, social-networks ]
 
-bonuses:
+protocols:
+  - id: ethereum
+    name: Ethereum
+    img: ethereum.jpg
+    description: Decentralized blockchain platform for smart contracts and dApps.
+    refs:
+      web: ethereum.org
+    tags: [ smart-contracts, currency ]
 
+  - id: bitcoin
+    name: Bitcoin
+    img: bitcoin.png
+    description: Decentralized digital currency enabling p2p transactions without intermediaries.
+    refs:
+      web: bitcoin.org
+    tags: [ currency ]
+
+  - id: polkadot
+    name: Polkadot
+    img: polkadot.webp
+    description: blockchain platform enabling interoperability and scalability for multiple blockchains
+    refs:
+      web: polkadot.network
+    tags: [ smart-contracts, interoperability ]
+
+  - id: monero
+    name: Monero
+    img: monero.png
+    description: Decentralized digital currency focused on privacy and untraceable transactions.
+    refs:
+      web: getmonero.org
+    tags: [ privacy, currency ]
+
+  - id: matrix
+    name: Matrix
+    img: matrix.jpg
+    description: Open network for secure, decentralised communication.
+    refs:
+      web: matrix.org
+    tags: [ chatrooms, privacy ]
+
+  - id: signal
+    name: Signal
+    img: signal.png
+    description: Secure messaging app focused on privacy and end-to-end encryption.
+    refs:
+      web: signal.org
+    tags: [ messenger, privacy ]
+
+  - id: at-protocol
+    name: AT Protocol
+    img: at-protocol.webp
+    description: Decentralized protocol for next-generation social networking (Bluesky).
+    refs:
+      web: atproto.com
+    tags: [ social-networks ]
+
+  - id: starknet
+    name: Starknet
+    img: starknet.webp
+    description: Decentralized layer-2 scaling solution for Ethereum using zk-rollups.
+    refs:
+      web: starknet.io
+    tags: [ smart-contracts, layer2 ]
+
+bonuses:
   - project: gweicz-broadcast-unit
     text: Equipment rental and assistance for free (according to capacity)
 
@@ -702,7 +766,6 @@ bonuses:
     text: Opportunity to participate as a mentor or judge
   
 opportunities:
-
   - project: donat-network
     link: https://www.donat.network/projects
     text: Support czech nonprofit projects

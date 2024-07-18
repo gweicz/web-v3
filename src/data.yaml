@@ -714,6 +714,14 @@ protocols:
       web: getmonero.org
     tags: [ privacy, currency ]
 
+  - id: tor
+    name: Tor
+    img: tor.png
+    description: Decentralized network for anonymous internet communication.
+    refs:
+      web: torproject.org
+    tags: [ privacy, anonymity ]
+
   - id: matrix
     name: Matrix
     img: matrix.jpg
@@ -738,13 +746,37 @@ protocols:
       web: atproto.com
     tags: [ social-networks ]
 
+  - id: ens
+    name: ENS
+    img: ens.jpg
+    description: Decentralized identity and human-readable names on Ethereum.
+    refs:
+      web: ens.domains
+    tags: [ naming-system, identity ]
+
+  - id: ipfs
+    name: IPFS
+    img: ipfs.png
+    description: Decentralized protocol for p2p file storage and sharing.
+    refs:
+      web: ipfs.org
+    tags: [ storage, file-sharing ]
+
   - id: radicle
     name: Radicle
     img: radicle.jpg
-    description: Decentralized code collaboration network built on peer-to-peer technology.
+    description: Decentralized code collaboration network built on p2p technology.
     refs:
       web: radicle.xyz
     tags: [ code-collaboration ]
+
+  - id: the-graph
+    name: The Graph
+    img: the-graph.jpg
+    description: Decentralized protocol for indexing and querying data from blockchains.
+    refs:
+      web: thegraph.com
+    tags: [ indexing, data ]
 
   - id: starknet
     name: Starknet

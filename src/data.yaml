@@ -305,16 +305,6 @@ projects:
     years: 2022-
     tags: [ education, platforms ]
 
-  - name: DVRG Collective
-    members: [ jana-kubatova ]
-    img: dvrg-logo.svg
-    description: By merging blockchain technology with art, we develop projects to make art accessible to a global audience.
-    refs:
-      web: dvrg.xyz
-      twitter: dvrg_nft
-    years: 2022-
-    tags: [ services, art, NFTs ]
-
   - name: The Divergents
     members: [ jana-kubatova ]
     img: divergents.webp
@@ -326,6 +316,16 @@ projects:
       telegram: DivergentsNFT
     years: 2022-
     tags: [ art, NFTs ]
+
+  - name: DVRG Collective
+    members: [ jana-kubatova ]
+    img: dvrg-logo.svg
+    description: By merging blockchain technology with art, we develop projects to make art accessible to a global audience.
+    refs:
+      web: dvrg.xyz
+      twitter: dvrg_nft
+    years: 2022-
+    tags: [ services, art, NFTs ]
 
   - name: Indices.fi
     members: [ m0xt, coinmandeer ]

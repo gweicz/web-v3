@@ -277,13 +277,13 @@ projects:
   #    web: https://web.archive.org/web/20221017125257/https://bankless.cz/
   #  past: true
 
-  - name: Walnut (prev. Wido)
+  - name: Wido
     members: [ roman-mazur ]
-    img: walnut.jpeg
-    description: Walnut is a blockchain transaction debugger and monitoring service starting on Starknet.
-    years: 2024-
-    refs:
-      web: https://walnut.dev/
+    img: wido.jpg
+    description: Wido helps people generate passive income with their crypto holdings.
+    years: 2021-2023
+    tags: [ DeFi, platforms ]
+    past: true
 
   - name: Blockchain Brno
     members: [ petr-mensik ]
@@ -537,6 +537,15 @@ projects:
       github: https://github.com/web3privacy
     years: 2023-
     tags: [ privacy, community, research, events ]
+
+  - name: Walnut
+    members: [ roman-mazur ]
+    img: walnut.jpeg
+    description: Walnut is a blockchain transaction debugger and monitoring service starting on Starknet.
+    years: 2024-
+    refs:
+      web: https://walnut.dev/
+      github: https://github.com/walnuthq
 
   #- name: EthCzech
   #  members: [ damsky ]

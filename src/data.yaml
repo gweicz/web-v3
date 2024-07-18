@@ -28,7 +28,7 @@ members:
 
   - id: coinmandeer
     name: Coinmandeer
-    img: coinmandeer.png
+    img: coinmandeer.webp
     refs:
       web: coinmandeer.com
       twitter: KeenOfCoin
@@ -36,7 +36,7 @@ members:
 
   - id: cryptomari0
     name: Cryptomari0
-    img: cryptomario.jpg
+    img: cryptomario.webp
     refs:
       telegram: cryptomari0
 
@@ -56,14 +56,14 @@ members:
 
   - id: ethan-clime
     name: Ethan Clime
-    img: ethan-clime.jpg
+    img: ethan-clime.webp
     refs:
       twitter: ethan_clime
       telegram: ethanclime
   
   - id: petr-mensik
     name: Petr Menšík
-    img: petr-mensik.jpeg
+    img: petr-mensik.webp
     refs:
       telegram: pmensik
 
@@ -75,7 +75,7 @@ members:
 
   - id: kvbik
     name: Santiago Alto
-    img: kvbik.png
+    img: kvbik.webp
     refs:
       twitter: kvbik
       github: https://github.com/kvbik
@@ -85,55 +85,6 @@ members:
     img: dominikz.jpg
     refs:
       twitter: D0minik_Z
-  
-  - id: mario-havel
-    name: Mario Havel
-    img: mario-havel.jpeg
-    refs:
-      twitter: tmiychao
-    confirmed: false
-
-  #- id: vaclav-pavlin
-  #  name: Václav Pavlín
-  #  img: vaclav-pavlin.jpeg
-  #  refs:
-  #    twitter: vpavlin
-
-  - id: ashhanai
-    name: Naim Ashhab
-    img: ashhanai.jpeg
-    refs:
-      twitter: ashhanai
-    confirmed: false
-
-  #- id: chrishobcroft
-  #  name: chrishobcroft
-  #  img: chrishobcroft.jpeg
-  #  refs:
-  #    twitter: chrishobcroft
-  #    matrix: chrishobcroft:matrix.org
-  #  confirmed: false
-
-  - id: josef-gattermayer
-    name: Josef Gattermayer
-    img: josef-gattermayer.jpeg
-    refs:
-      twitter: jgattermayer
-    confirmed: false
-
-  - id: ceci
-    name: Ceci
-    img: ceci.jpeg
-    refs:
-      twitter: hyperalchemy
-    confirmed: false
-
-  - id: adam-kracik
-    name: Adam Kracík
-    img: adam-kracik.jpeg
-    refs:
-      twitter: kracik_adam
-    confirmed: false
 
   - id: roman-mazur
     name: Roman Mazur
@@ -141,33 +92,72 @@ members:
     refs:
       twitter: romanmazur
 
-  - id: cryptonda
-    name: cryptonda
-    img: cryptonda.jpeg
-    refs:
-      twitter: cryptonda
-    confirmed: false
-
-  - id: michaela-malatin
-    name: Michaela Malatín
-    img: michaela-malatin.jpeg
-    refs:
-      twitter: misavkryptu1
-    confirmed: false
-
   - id: jana-kubatova
     name: Jana Kubátová
     img: jana-kubatova.webp
     refs:
       twitter: DivergentsNFT
-    confirmed: false
+
+#  - id: mario-havel
+#    name: Mario Havel
+#    img: mario-havel.jpeg
+#    refs:
+#      twitter: tmiychao
+
+#  - id: vaclav-pavlin
+#    name: Václav Pavlín
+#    img: vaclav-pavlin.jpeg
+#    refs:
+#      twitter: vpavlin
+
+#  - id: ashhanai
+#    name: Naim Ashhab
+#    img: ashhanai.jpeg
+#    refs:
+#      twitter: ashhanai
+
+#  - id: chrishobcroft
+#    name: chrishobcroft
+#    img: chrishobcroft.jpeg
+#    refs:
+#      twitter: chrishobcroft
+#      matrix: chrishobcroft:matrix.org
+
+#  - id: josef-gattermayer
+#    name: Josef Gattermayer
+#    img: josef-gattermayer.jpeg
+#    refs:
+#      twitter: jgattermayer
+
+#  - id: ceci
+#    name: Ceci
+#    img: ceci.jpeg
+#    refs:
+#      twitter: hyperalchemy
+
+#  - id: adam-kracik
+#    name: Adam Kracík
+#    img: adam-kracik.jpeg
+#    refs:
+#      twitter: kracik_adam
+
+#  - id: cryptonda
+#    name: cryptonda
+#    img: cryptonda.jpeg
+#    refs:
+#      twitter: cryptonda
+
+#  - id: michaela-malatin
+#    name: Michaela Malatín
+#    img: michaela-malatin.jpeg
+#    refs:
+#      twitter: misavkryptu1
   
-  - id: kirill-juran
-    name: Kirill Juran
-    img: kirill-juran.jpeg
-    refs:
-      twitter: KirillJuran
-    confirmed: false
+#  - id: kirill-juran
+#    name: Kirill Juran
+#    img: kirill-juran.jpeg
+#    refs:
+#      twitter: KirillJuran
 
 projects:
 
@@ -259,25 +249,23 @@ projects:
     years: 2021-
     tags: [ events, privacy, hackathon ]
   
-  - name: Ackee Blockchain
-    members: [ josef-gattermayer ]
-    img: ackee.jpeg
-    description: Blockchain security by industry-leading auditors.
-    refs:
-      web: ackee.xyz
-      twitter: AckeeBlockchain
-    years: 2021-
-    confirmed: false
+#  - name: Ackee Blockchain
+#    members: [ josef-gattermayer ]
+#    img: ackee.jpeg
+#    description: Blockchain security by industry-leading auditors.
+#    refs:
+#      web: ackee.xyz
+#      twitter: AckeeBlockchain
+#    years: 2021-
 
-  - name: PWN
-    members: [ ashhanai ]
-    img: pwn.jpeg
-    description: P2P lending using any token as collateral.
-    refs:
-      web: pwn.xyz
-      twitter: pwndao
-    years: 2021-
-    confirmed: false
+#  - name: PWN
+#    members: [ ashhanai ]
+#    img: pwn.jpeg
+#    description: P2P lending using any token as collateral.
+#    refs:
+#      web: pwn.xyz
+#      twitter: pwndao
+#    years: 2021-
 
   #- name: Bankless Czech
   #  members: [ damsky ]
@@ -316,6 +304,28 @@ projects:
     years: 2022-
     tags: [ education, platforms ]
 
+  - name: DVRG Collective
+    members: [ jana-kubatova ]
+    img: dvrg-logo.svg
+    description: By merging blockchain technology with art, we develop projects to make art accessible to a global audience.
+    refs:
+      web: dvrg.xyz
+      twitter: dvrg_nft
+    years: 2022-
+    tags: [ services, art, NFTs ]
+
+  - name: The Divergents
+    members: [ jana-kubatova ]
+    img: divergents.webp
+    description: |
+      The first Czech artistic NFT collection by artist Mark Ehrenberger: 10 unique characters and 2022 distinctive pieces promoting altruism worldwide.
+    refs:
+      web: thedivergents.io
+      twitter: DivergentsNFT
+      telegram: DivergentsNFT
+    years: 2022-
+    tags: [ art, NFTs ]
+
   - name: Indices.fi
     members: [ m0xt, coinmandeer ]
     img: indices.jpg
@@ -346,6 +356,7 @@ projects:
     refs:
       web: ethprague.com
     years: 2022-
+    tags: [ events, hackathon ]
 
   - name: BeerFi Prague
     members: [ radek, ethan-clime ]
@@ -405,25 +416,23 @@ projects:
       twitter: ruzovejslon
     tags: [ podcasts ]
 
-  - name: "ERC-5646: Token State Fingerprint"
-    members: [ ashhanai ]
-    img: erc.webp
-    description: The minimum interface required to unambiguously identify the state of a mutable token without knowledge of implementation details.
-    years: "2022"
-    past: true
-    refs:
-      web: https://eips.ethereum.org/EIPS/eip-5646
-    confirmed: false
+#  - name: "ERC-5646: Token State Fingerprint"
+#    members: [ ashhanai ]
+#    img: erc.webp
+#    description: The minimum interface required to unambiguously identify the state of a mutable token without knowledge of implementation details.
+#    years: "2022"
+#    past: true
+#    refs:
+#      web: https://eips.ethereum.org/EIPS/eip-5646
 
-  - name: Proof-of-Cat
-    members: [ mario-havel ]
-    img: proof-of-cat.png
-    description: Generating randomness for cryptographic systems, utilizing entropy of domestic felines, also known as cats.
-    years: 2022-
-    confirmed: false
-    refs:
-      web: proofof.cat
-      github: https://github.com/taxmeifyoucan/proof-of-cat
+#  - name: Proof-of-Cat
+#    members: [ mario-havel ]
+#    img: proof-of-cat.png
+#    description: Generating randomness for cryptographic systems, utilizing entropy of domestic felines, also known as cats.
+#    years: 2022-
+#    refs:
+#      web: proofof.cat
+#      github: https://github.com/taxmeifyoucan/proof-of-cat
 
   - name: The Open Source Orchestra
     members: [ kvbik ]
@@ -433,7 +442,17 @@ projects:
       web: https://x.com/opensourceorch
       twitter: https://x.com/opensourceorch
     years: 2022-
-    tags: [ music, community ]
+    tags: [ music, community, events ]
+
+  - name: Here/After The Art
+    members: [ jana-kubatova ]
+    img: hata.svg
+    description: Global project that sparks a discussion about the future of art in an era shaped by AI, NFT, blockchain technologies, and cultural decentralization.
+    refs:
+      web: hereaftertheart.com
+      twitter: HereAfterTheArt
+    years: 2023-
+    tags: [ art, NFTs ]
 
   - name: Donat.network
     members: [ jacob-jelen ]
@@ -445,15 +464,14 @@ projects:
     years: 2023-
     tags: [ charity, public-goods ]
 
-  - name: NFT Insights
-    members: [ michaela-malatin ]
-    img: nft-insights.png
-    description: Cultivating web3 ecosystem with an educational content.
-    refs:
-      web: www.nftinsights.io
-      twitter: NFTInsightsCZ
-    years: 2023-
-    confirmed: false
+#  - name: NFT Insights
+#    members: [ michaela-malatin ]
+#    img: nft-insights.png
+#    description: Cultivating web3 ecosystem with an educational content.
+#    refs:
+#      web: www.nftinsights.io
+#      twitter: NFTInsightsCZ
+#    years: 2023-
 
   - name: L2Loft Prague
     members: [ tree, coinmandeer ]
@@ -478,18 +496,17 @@ projects:
     years: "2023"
     tags: [ events, public-goods ]
 
-  - name: Wake
-    members: [ josef-gattermayer ]
-    img: wake.jpeg
-    description: Python-based development and testing framework for Solidity and cross-chain fuzzing.
-    refs:
-      web: getwake.io
-      twitter: WakeFramework
-      github: https://github.com/Ackee-Blockchain/wake
-    years: 2023-
-    confirmed: false
+#  - name: Wake
+#    members: [ josef-gattermayer ]
+#    img: wake.jpeg
+#    description: Python-based development and testing framework for Solidity and cross-chain fuzzing.
+#    refs:
+#      web: getwake.io
+#      twitter: WakeFramework
+#      github: https://github.com/Ackee-Blockchain/wake
+#    years: 2023-
 
-  - name: YAC3F (Yet Another CREATE3 Factory)
+  - name: Yet Another CREATE3 Factory
     members: [ radek ]
     img: yac3f.webp
     description: Deterministic deployment of custom contracts to the same address on multiple EVM chains.

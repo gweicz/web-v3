@@ -738,6 +738,14 @@ protocols:
       web: atproto.com
     tags: [ social-networks ]
 
+  - id: radicle
+    name: Radicle
+    img: radicle.jpg
+    description: Decentralized code collaboration network built on peer-to-peer technology.
+    refs:
+      web: radicle.xyz
+    tags: [ code-collaboration ]
+
   - id: starknet
     name: Starknet
     img: starknet.webp
@@ -745,6 +753,14 @@ protocols:
     refs:
       web: starknet.io
     tags: [ smart-contracts, layer2 ]
+
+  - id: urbit
+    name: Urbit
+    img: urbit.png
+    description: New computing paradigm that provides complete ownership of your digital worldwide.
+    refs:
+      web: urbit.org
+    tags: [ personal-server ]
 
 bonuses:
   - project: gweicz-broadcast-unit

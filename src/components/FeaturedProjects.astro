@@ -2,14 +2,25 @@
 import { projects, members } from '../data.yaml';
 import { shuffleArr, fixLink } from '../lib/utils.js';
 
-const arr = shuffleArr(projects.filter(p => p.confirmed !== false))
+const current = shuffleArr(projects.filter(p => !p.past))
+const past = shuffleArr(projects.filter(p => p.past))
+
 ---
 
-<div class="flex flex-wrap gap-1 mb-8 mt-4 not-prose">
-    {arr.map((p) => (
-        <a href={p.refs?.web && fixLink(p.refs?.web)} class="object shrink-0 w-8 h-8 opacity-50 hover:opacity-100">
-            <img src={'/images/projects/'+p.img} class="aspect-square object-fit rounded-lg w-8" alt={p.name} title={p.name} />
-        </a>
-    ))}
-</div>
 
+    <div class="flex flex-wrap gap-1 mt-4 not-prose">
+        {current.map((p) => (
+            <a href={p.refs?.web && fixLink(p.refs?.web)} class="object shrink-0 w-10 h-10 opacity-100 hover:opacity-100">
+                <img src={'/images/projects/'+p.img} class="aspect-square object-fit rounded-lg w-10" alt={p.name} title={p.name} />
+            </a>
+        ))}
+
+
+    </div>
+    <div class="flex flex-wrap gap-1 mt-4 mb-8 not-prose">
+        {past.map((p) => (
+            <a href={p.refs?.web && fixLink(p.refs?.web)} class="object shrink-0 w-10 h-10 opacity-50 hover:opacity-100">
+                <img src={'/images/projects/'+p.img} class="aspect-square object-fit rounded-lg w-10" alt={p.name} title={p.name} />
+            </a>
+        ))}
+    </div>

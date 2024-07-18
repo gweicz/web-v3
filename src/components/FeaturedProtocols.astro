@@ -1,0 +1,13 @@
+---
+import { protocols } from '../data.yaml';
+import { shuffleArr, fixLink } from '../lib/utils.js';
+---
+
+<div class="flex flex-wrap gap-1 mb-8 mt-4 not-prose">
+    {protocols.map((p) => (
+        <a href={p.refs?.web && fixLink(p.refs?.web)} class="object shrink-0 w-10 h-10 opacity-100 hover:opacity-100">
+            <img src={'/images/protocols/'+p.img} class="aspect-square object-fit rounded-lg w-10" alt={p.name} title={p.name} />
+        </a>
+    ))}
+</div>
+

@@ -546,6 +546,7 @@ projects:
     refs:
       web: https://walnut.dev/
       github: https://github.com/walnuthq
+    tags: [ services, tools, devs ]
 
   #- name: EthCzech
   #  members: [ damsky ]

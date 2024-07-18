@@ -29,6 +29,9 @@ export function renderRefs (refs, renderWeb = false) {
     if (refs.github) {
         out.push(`<a href=${refs.github} class="hover:underline">github</a>`)
     }
+    if (refs.linkedin) {
+        out.push(`<a href=${'https://www.linkedin.com/in/'+refs.linkedin} class="hover:underline">linkedin</a>`)
+    }
     return '<span class="opacity-75">'+out.join(', ')+'</span>'
 }
 

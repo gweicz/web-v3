@@ -162,7 +162,8 @@ members:
 
 projects:
 
-  - name: OpenCrypto
+  - id: opencrypto
+    name: OpenCrypto
     members: [ tree, coinmandeer, cryptomari0 ]
     img: opencrypto.jpeg
     description: Cryptoassets reference dataset experiments.
@@ -172,8 +173,9 @@ projects:
     past: true
     years: "2018"
     tags: [ experiment, platforms ]
-  
-  - name: dapp.js
+
+  - id: dapp-js
+    name: dapp.js
     members: [ tree ]
     img: dappjs.webp
     description: Framework that provides a single, common abstraction interface of Ethereum smart-contracts.
@@ -184,7 +186,8 @@ projects:
     years: "2018"
     tags: [ tools, experiment, devs ]
 
-  - name: Gwei.cz Legacy
+  - id: gweicz-legacy
+    name: Gwei.cz Legacy
     members: [ tree, coinmandeer, radek, cryptomari0 ]
     img: gweicz-legacy.png
     description: The first & second era (5 years) of the Gwei.cz community.
@@ -197,7 +200,8 @@ projects:
     years: 2020-2024
     tags: [ community ]
 
-  - name: DeFi Toolkit
+  - id: defi-toolkit
+    name: DeFi Toolkit
     members: [ tree ]
     img: defi-toolkit.webp
     description: Curated list of best tools for user of Ethereum (DeFi) ecosystem.
@@ -208,7 +212,8 @@ projects:
     years: 2020-2022
     tags: [ DeFi, tools ]
 
-  - name: BohemianDAO
+  - id: bohemiandao
+    name: BohemianDAO
     members: []
     img: bohemiandao.jpg
     description: An experimental non-profit DAO created to fund local projects supporting education and adoption of the Ethereum platform and Decentralized Finance (DeFi).
@@ -219,7 +224,8 @@ projects:
     years: 2021-
     tags: [ DAO, public-goods, experiment ]
 
-  - name: Polkadotters
+  - id: polkadotters
+    name: Polkadotters
     members: [ petr-mensik ]
     img: polkadotters.jpeg
     description: Local Polkadot community and validator and collator service.
@@ -229,7 +235,8 @@ projects:
     years: 2021-
     tags: [ community, services ]
 
-  - name: Podcast Krypto Insider
+  - id: podcast-krypto-insider
+    name: Podcast Krypto Insider
     members: [ petr-lukac ]
     img: kryptoinsider.jpeg
     description: Co jsou to kryptoměny, jak funguje bitcoin a ethereum a jak o ně nepřijít kvůli hloupé chybě?
@@ -239,7 +246,8 @@ projects:
     past: true
     tags: [ podcasts ]
 
-  - name: ETHBrno
+  - id: ethbrno
+    name: ETHBrno
     members: [ tree ]
     img: ethbrno.jpg
     description: Privacy-focused Ethereum hackathon in Brno, Czech Republic.
@@ -249,35 +257,39 @@ projects:
       bsky: ethbrno.cz
     years: 2021-
     tags: [ events, privacy, hackathon ]
-  
-#  - name: Ackee Blockchain
-#    members: [ josef-gattermayer ]
-#    img: ackee.jpeg
-#    description: Blockchain security by industry-leading auditors.
-#    refs:
-#      web: ackee.xyz
-#      twitter: AckeeBlockchain
-#    years: 2021-
 
-#  - name: PWN
-#    members: [ ashhanai ]
-#    img: pwn.jpeg
-#    description: P2P lending using any token as collateral.
-#    refs:
-#      web: pwn.xyz
-#      twitter: pwndao
-#    years: 2021-
+  # - id: ackee-blockchain
+  #   name: Ackee Blockchain
+  #   members: [ josef-gattermayer ]
+  #   img: ackee.jpeg
+  #   description: Blockchain security by industry-leading auditors.
+  #   refs:
+  #     web: ackee.xyz
+  #     twitter: AckeeBlockchain
+  #   years: 2021-
 
-  #- name: Bankless Czech
-  #  members: [ damsky ]
-  #  img: banklesscz.png
-  #  description: Local information portal in Czech language.
-  #  years: 2021-2022
-  #  refs:
-  #    web: https://web.archive.org/web/20221017125257/https://bankless.cz/
-  #  past: true
+  # - id: pwn
+  #   name: PWN
+  #   members: [ ashhanai ]
+  #   img: pwn.jpeg
+  #   description: P2P lending using any token as collateral.
+  #   refs:
+  #     web: pwn.xyz
+  #     twitter: pwndao
+  #   years: 2021-
 
-  - name: Wido
+  # - id: bankless-czech
+  #   name: Bankless Czech
+  #   members: [ damsky ]
+  #   img: banklesscz.png
+  #   description: Local information portal in Czech language.
+  #   years: 2021-2022
+  #   refs:
+  #     web: https://web.archive.org/web/20221017125257/https://bankless.cz/
+  #   past: true
+
+  - id: wido
+    name: Wido
     members: [ roman-mazur ]
     img: wido.jpg
     description: Wido helps people generate passive income with their crypto holdings.
@@ -285,7 +297,8 @@ projects:
     tags: [ DeFi, platforms ]
     past: true
 
-  - name: Blockchain Brno
+  - id: blockchain-brno
+    name: Blockchain Brno
     members: [ petr-mensik ]
     img: blockchain-brno.jpg
     description: Meetups about blockchain and decentralized technologies in Brno.
@@ -294,7 +307,8 @@ projects:
       web: https://www.meetup.com/blockchain-brno/
     tags: [ events ]
 
-  - name: AgorApp
+  - id: agorapp
+    name: AgorApp
     members: [ ethan-clime ]
     img: agorapp.jpeg
     description: "Your one-stop platform for learning All Things Web3 Development: learn, compete, build."
@@ -305,7 +319,8 @@ projects:
     years: 2022-
     tags: [ education, platforms ]
 
-  - name: The Divergents
+  - id: divergents
+    name: The Divergents
     members: [ jana-kubatova ]
     img: divergents.webp
     description: |
@@ -317,7 +332,8 @@ projects:
     years: 2022-
     tags: [ art, NFTs ]
 
-  - name: DVRG Collective
+  - id: dvrg-collective
+    name: DVRG Collective
     members: [ jana-kubatova ]
     img: dvrg-logo.svg
     description: By merging blockchain technology with art, we develop projects to make art accessible to a global audience.
@@ -327,7 +343,8 @@ projects:
     years: 2022-
     tags: [ services, art, NFTs ]
 
-  - name: Indices.fi
+  - id: indices-fi
+    name: Indices.fi
     members: [ m0xt, coinmandeer ]
     img: indices.jpg
     description: We guide you to invest in the best crypto indices out there.
@@ -338,7 +355,8 @@ projects:
     past: true
     tags: [ platforms ]
 
-  - name: UTXO Prague
+  - id: utxo-prague
+    name: UTXO Prague
     members: [ tree, coinmandeer ]
     img: utxo.jpg
     description: The largest community conference on blockchain and cryptocurrencies in the Czech Republic.
@@ -350,7 +368,8 @@ projects:
     years: 2022-2023
     tags: [ events, public-goods ]
 
-  - name: ETHPrague
+  - id: ethprague
+    name: ETHPrague
     members: [ dominikz ]
     img: ethprague.jpeg
     description: Solarpunk conference and a hackathon in Prague, Czech Republic.
@@ -359,7 +378,8 @@ projects:
     years: 2022-
     tags: [ events, hackathon ]
 
-  - name: BeerFi Prague
+  - id: beerfi-prague
+    name: BeerFi Prague
     members: [ radek, ethan-clime ]
     img: beerfi.jpg
     description: Every Tuesday on the last week of the month, we bring together programmers in Web3.
@@ -368,7 +388,8 @@ projects:
     years: 2022-
     tags: [ events, devs ]
 
-  - name: Develit
+  - id: develit
+    name: Develit
     members: [ petr-klein, radek, coinmandeer, cryptonda ]
     img: develit.png
     description: We build tailor-made web3 projects.
@@ -379,7 +400,8 @@ projects:
     years: 2022-
     tags: [ services, devs ]
 
-  - name: Non Fungible Brain
+  - id: non-fungible-brain
+    name: Non Fungible Brain
     members: [ radek ]
     img: nfb.jpg
     description: An initiative leveraging NFTs to raise awareness and funding for Alzheimer's research.
@@ -389,14 +411,16 @@ projects:
     years: 2022-
     tags: [ research, NFTs ]
 
-  - name: DegenGrupa
+  - id: degengrupa
+    name: DegenGrupa
     members: [ coinmandeer, cryptomari0 ]
     img: degengrupa.webp
     description: Discord community for degens around Pilsen (invite-only).
     years: 2022-
     tags: [ community ]
 
-  - name: APUS Finance
+  - id: apus-finance
+    name: APUS Finance
     members: [ radek, petr-klein, coinmandeer ]
     img: apus.jpg
     description: Next-gen banking. Decentralized.
@@ -407,7 +431,8 @@ projects:
     past: true
     tags: [ DeFi ]
 
-  - name: KryptoSpace
+  - id: kryptospace
+    name: KryptoSpace
     members: [ petr-lukac ]
     img: kryptospace.jpeg
     description: Czech podcast about cryptocurrencies.
@@ -417,25 +442,28 @@ projects:
       twitter: ruzovejslon
     tags: [ podcasts ]
 
-#  - name: "ERC-5646: Token State Fingerprint"
-#    members: [ ashhanai ]
-#    img: erc.webp
-#    description: The minimum interface required to unambiguously identify the state of a mutable token without knowledge of implementation details.
-#    years: "2022"
-#    past: true
-#    refs:
-#      web: https://eips.ethereum.org/EIPS/eip-5646
+  # - id: erc-5646
+  #   name: "ERC-5646: Token State Fingerprint"
+  #   members: [ ashhanai ]
+  #   img: erc.webp
+  #   description: The minimum interface required to unambiguously identify the state of a mutable token without knowledge of implementation details.
+  #   years: "2022"
+  #   past: true
+  #   refs:
+  #     web: https://eips.ethereum.org/EIPS/eip-5646
 
-#  - name: Proof-of-Cat
-#    members: [ mario-havel ]
-#    img: proof-of-cat.png
-#    description: Generating randomness for cryptographic systems, utilizing entropy of domestic felines, also known as cats.
-#    years: 2022-
-#    refs:
-#      web: proofof.cat
-#      github: https://github.com/taxmeifyoucan/proof-of-cat
+  # - id: proof-of-cat
+  #   name: Proof-of-Cat
+  #   members: [ mario-havel ]
+  #   img: proof-of-cat.png
+  #   description: Generating randomness for cryptographic systems, utilizing entropy of domestic felines, also known as cats.
+  #   years: 2022-
+  #   refs:
+  #     web: proofof.cat
+  #     github: https://github.com/taxmeifyoucan/proof-of-cat
 
-  - name: The Open Source Orchestra
+  - id: open-source-orchestra
+    name: The Open Source Orchestra
     members: [ kvbik ]
     img: open-source-orchestra.jpeg
     description: Musicians promoting collaboration and artistic engagement.
@@ -445,7 +473,8 @@ projects:
     years: 2022-
     tags: [ music, community, events ]
 
-  - name: Here/After The Art
+  - id: here-after-the-art
+    name: Here/After The Art
     members: [ jana-kubatova ]
     img: hata.svg
     description: Global project that sparks a discussion about the future of art in an era shaped by AI, NFT, blockchain technologies, and cultural decentralization.
@@ -455,7 +484,8 @@ projects:
     years: 2023-
     tags: [ art, NFTs ]
 
-  - name: Donat.network
+  - id: donat-network
+    name: Donat.network
     members: [ jacob-jelen ]
     img: donat-network.jpg
     description: The nicest way to lose crypto! Support crypto non-profit projects that bring needed change in people's lives.
@@ -465,16 +495,18 @@ projects:
     years: 2023-
     tags: [ charity, public-goods ]
 
-#  - name: NFT Insights
-#    members: [ michaela-malatin ]
-#    img: nft-insights.png
-#    description: Cultivating web3 ecosystem with an educational content.
-#    refs:
-#      web: www.nftinsights.io
-#      twitter: NFTInsightsCZ
-#    years: 2023-
+  # - id: nft-insights
+  #   name: NFT Insights
+  #   members: [ michaela-malatin ]
+  #   img: nft-insights.png
+  #   description: Cultivating web3 ecosystem with an educational content.
+  #   refs:
+  #     web: www.nftinsights.io
+  #     twitter: NFTInsightsCZ
+  #   years: 2023-
 
-  - name: L2Loft Prague
+  - id: l2loft-prague
+    name: L2Loft Prague
     members: [ tree, coinmandeer ]
     img: l2loft.jpg
     description: A collaborative day around Ethereum Layer2s and related topics.
@@ -485,7 +517,8 @@ projects:
     years: "2023"
     tags: [ events, experiment ]
 
-  - name: Prague Blockchain Week 2023
+  - id: prague-blockchain-week-2023
+    name: Prague Blockchain Week 2023
     members: [ tree, coinmandeer ]
     img: pbw23.jpg
     description: Decentralized cryptocurrency gathering in the heart of europe (10 days, 47+ events, 405+ speakers).
@@ -497,17 +530,19 @@ projects:
     years: "2023"
     tags: [ events, public-goods ]
 
-#  - name: Wake
-#    members: [ josef-gattermayer ]
-#    img: wake.jpeg
-#    description: Python-based development and testing framework for Solidity and cross-chain fuzzing.
-#    refs:
-#      web: getwake.io
-#      twitter: WakeFramework
-#      github: https://github.com/Ackee-Blockchain/wake
-#    years: 2023-
+  # - id: wake
+  #   name: Wake
+  #   members: [ josef-gattermayer ]
+  #   img: wake.jpeg
+  #   description: Python-based development and testing framework for Solidity and cross-chain fuzzing.
+  #   refs:
+  #     web: getwake.io
+  #     twitter: WakeFramework
+  #     github: https://github.com/Ackee-Blockchain/wake
+  #   years: 2023-
 
-  - name: Yet Another CREATE3 Factory
+  - id: yet-another-create3-factory
+    name: Yet Another CREATE3 Factory
     members: [ radek ]
     img: yac3f.webp
     description: Deterministic deployment of custom contracts to the same address on multiple EVM chains.
@@ -517,16 +552,18 @@ projects:
       github: https://github.com/radeksvarz/yac3f
     years: 2023-
 
-  #- name: CZKC
-  #  members: [ radek, petr-klein ]
-  #  img: czkc.png
-  #  description: Fiat-collateralized CZK stablecoin.
-  #  refs:
-  #    web: czkc.io
-  #    twitter: CZKC_cz
-  #  years: 2023-
+  # - id: czkc
+  #   name: CZKC
+  #   members: [ radek, petr-klein ]
+  #   img: czkc.png
+  #   description: Fiat-collateralized CZK stablecoin.
+  #   refs:
+  #     web: czkc.io
+  #     twitter: CZKC_cz
+  #   years: 2023-
 
-  - name: Web3Privacy Now
+  - id: web3privacy-now
+    name: Web3Privacy Now
     members: [ coinmandeer, cryptomari0, petr-klein ]
     img: web3privacynow.png
     description: Privacy focused community of enthusiasts developers, event organisers, researchers pushing web3privacy forward.
@@ -538,7 +575,8 @@ projects:
     years: 2023-
     tags: [ privacy, community, research, events ]
 
-  - name: Walnut
+  - id: walnut
+    name: Walnut
     members: [ roman-mazur ]
     img: walnut.jpeg
     description: Walnut is a blockchain transaction debugger and monitoring service starting on Starknet.
@@ -548,16 +586,18 @@ projects:
       github: https://github.com/walnuthq
     tags: [ services, tools, devs ]
 
-  #- name: EthCzech
-  #  members: [ damsky ]
-  #  img: ethczech.webp
-  #  description: Beginner friendly ethereum community in Czech Republic.
-  #  refs:
-  #    web: https://x.com/EthereumCzech
-  #    twitter: EthereumCzech
-  #  years: 2023-
+  # - id: ethczech
+  #   name: EthCzech
+  #   members: [ damsky ]
+  #   img: ethczech.webp
+  #   description: Beginner friendly ethereum community in Czech Republic.
+  #   refs:
+  #     web: https://x.com/EthereumCzech
+  #     twitter: EthereumCzech
+  #   years: 2023-
 
-  - name: Cairo VM Codes
+  - id: cairo-vm-codes
+    name: Cairo VM Codes
     members: [ roman-mazur ]
     img: cairovm-codes.png
     description: A web app to compile Cairo programs into Sierra and CASM with step-through execution capabilities.
@@ -567,7 +607,8 @@ projects:
     years: 2024-
     tags: [ tools, devs ]
 
-  - name: createx-forge
+  - id: createx-forge
+    name: createx-forge
     members: [ radek ]
     img: createx.webp
     description: Use CreateX CREATE3 factory within Foundry Forge projects.
@@ -577,34 +618,38 @@ projects:
     years: 2024-
     tags: [ tools, devs ]
 
-  #- name: ProtoLayers
-  #  members: [ damsky ]
-  #  img: protolayers.jpg
-  #  description: Builder conference advancing ethereum ecosystem one event at at a time.
-  #  refs:
-  #    web: protolayers.dev
-  #    twitter: ProtoLayers
-  #  years: 2024-
+  # - id: protolayers
+  #   name: ProtoLayers
+  #   members: [ damsky ]
+  #   img: protolayers.jpg
+  #   description: Builder conference advancing ethereum ecosystem one event at at a time.
+  #   refs:
+  #     web: protolayers.dev
+  #     twitter: ProtoLayers
+  #   years: 2024-
 
-  - name: Gwei.cz Broadcast Unit
+  - id: gweicz-broadcast-unit
+    name: Gwei.cz Broadcast Unit
     members: [ tree, coinmandeer ]
     img: gweicz-broadcast.webp
     description: Recording and broadcasting service as public good for local events.
     refs:
-      web: https://github.com/gweicz/broadcast-setup
-      github: https://github.com/gweicz/broadcast-setup
+      web: https://github.com/gweicz/broadcast-unit
+      github: https://github.com/gweicz/broadcast-unit
     years: 2024-
     tags: [ services, public-goods ]
   
-  #- name: Logos Assembly Brno
-  #  members: [ vaclav-pavlin ]
-  #  img: logos-assembly-brno.avif
-  #  description: Building and sustaining a fully decentralised, privacy-preserving, and politically neutral technology stack in the spirit of the cypherpunks.
-  #  refs:
-  #    web: https://lu.ma/la3
-  #  years: 2024-
+  # - id: logos-assembly-brno
+  #   name: Logos Assembly Brno
+  #   members: [ vaclav-pavlin ]
+  #   img: logos-assembly-brno.avif
+  #   description: Building and sustaining a fully decentralised, privacy-preserving, and politically neutral technology stack in the spirit of the cypherpunks.
+  #   refs:
+  #     web: https://lu.ma/la3
+  #   years: 2024-
 
-  - name: Unchained Brno
+  - id: unchained-brno
+    name: Unchained Brno
     members: [ tree, petr-mensik ]
     img: onchainbrno.jpg
     description: A federation of events around cryptocurrencies happening at the end of October 2024 in Brno, Czech Republic.
@@ -615,14 +660,16 @@ projects:
     years: 2024-
     tags: [ events ]
 
-  - name: Gwei.cz Lunarpunk Division ⟠
+  - id: gweicz-lunarpunk-division
+    name: Gwei.cz Lunarpunk Division ⟠
     members: [ tree ]
     img: gweicz-lunarpunk.jpg
     description: Embracing discomfort, empowering discourse.
     years: 2024-
     tags: [ privacy, events ]
 
-  - name: Bluesky Česko
+  - id: bluesky-cesko
+    name: Bluesky Česko
     members: [ tree ]
     img: bsky.jpg
     description: Czech community of AT Protocol/Bluesky fans.
@@ -632,3 +679,37 @@ projects:
       bsky: bsky.cz 
     years: 2024-
     tags: [ community, social-networks ]
+
+bonuses:
+
+  - project: gweicz-broadcast-unit
+    text: Equipment rental and assistance for free (according to capacity)
+
+  - project: gweicz-lunarpunk-division
+    text: Free entrance to all our events
+
+  - project: gweicz-lunarpunk-division
+    text: Free consultation on the use of private tools
+
+  - project: bluesky-cesko
+    text: Free consultancy and support
+  
+  - project: divergents
+    text: Mint for free
+
+  - project: ethbrno
+    text: Opportunity to participate as a mentor or judge
+  
+opportunities:
+
+  - project: donat-network
+    link: https://www.donat.network/projects
+    text: Support czech nonprofit projects
+
+  - project: unchained-brno
+    link: https://onchainbrno.com/
+    text: Organise your own event
+
+  - project: bluesky-cesko
+    link: https://bsky.app
+    text: Move from X to open networks like Bluesky

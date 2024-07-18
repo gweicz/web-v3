@@ -30,7 +30,7 @@ import FeaturedProjects from "../components/FeaturedProjects.astro";
 import { members, projects } from "../data.yaml";
 
 <h2 id="members">
-  Members ({members.filter((m) => m.confirmed !== false).length})
+  Members - {members.filter((m) => m.confirmed !== false).length}
 </h2>
 
 _(in random order)_
@@ -40,8 +40,7 @@ import MemberList from "../components/MemberList.astro";
 <MemberList />
 
 <h2 id="active-projects">
-  Active Projects of Members (
-  {projects.filter((p) => p.past !== true && p.confirmed !== false).length})
+  Active Projects of Members - {projects.filter((p) => p.past !== true).length}
 </h2>
 
 _(from the newest to the oldest)_
@@ -51,8 +50,7 @@ import ProjectList from "../components/ProjectList.astro";
 <ProjectList />
 
 <h2 id="past-projects">
-  Past Projects of Members (
-  {projects.filter((p) => p.past === true && p.confirmed !== false).length})
+  Past Projects of Members - {projects.filter((p) => p.past === true).length}
 </h2>
 
 _(from the newest to the oldest)_

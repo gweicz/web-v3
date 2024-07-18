@@ -1,5 +1,5 @@
 ---
-import { projects, members } from '../data.yaml';
+import { projects, members, bonuses, opportunities } from '../data.yaml';
 import { renderRefs, fixLink } from '../lib/utils.js';
 
 const { past = false } = Astro.props;
@@ -17,8 +17,11 @@ const arr = projects.filter(p => past ? p.past === true : p.past !== true).filte
 
 
 <div class="not-prose">
-    {arr.map(p => (
-        <div class="flex gap-4 mb-4 py-2 px-2 items-center hover:bg-gray-100 rounded-lg w-full group" class:list={[p.confirmed === false ? 'opacity-50' : '']}>
+    {arr.map(p => {
+        const bonusItems = bonuses.filter(b => b.project === p.id);
+        const opportunityItems = opportunities.filter(o => o.project === p.id);
+        return (
+        <div class="flex gap-4 mb-4 py-2 px-2 hover:bg-gray-100 rounded-lg w-full group" class:list={[p.confirmed === false ? 'opacity-50' : '']}>
             <div class="shrink-0"><img src={'/images/projects/'+p.img} class="aspect-square object-fit rounded-xl w-20" /></div>
             <div class="grow">
                 <div class="flex flex-wrap gap-2 items-center w-full">
@@ -48,7 +51,29 @@ const arr = projects.filter(p => past ? p.past === true : p.past !== true).filte
                         ))}
                     </div>
                 )}
+                {bonusItems.length > 0 && (
+                    <div class="ml-2 mt-2 text-sm flex flex-wrap gap-1">
+                        {bonusItems.map(bi =>
+                            <div class="p-2 border border-blue-500/20 bg-blue-100/30 rounded">🎁 Bonus for members: {bi.text}</div>
+                        )}
+                    </div>
+                )}
+                {opportunityItems.length > 0 && (
+                    <div class="ml-2 mt-2 text-sm flex flex-wrap gap-1">
+                        {opportunityItems.map(oi => {
+                            return <div class="p-2 border border-green-500/20 bg-green-100/30 rounded">
+                                🌟 For ALL:
+                                {oi.link && (
+                                    <a href={oi.link} class="hover:underline">{oi.text}</a>
+                                )}
+                                {!oi.link && (
+                                    <span>🌟 {oi.text}</span>
+                                )}
+                            </div>
+                        })}
+                    </div>
+                )}
             </div>
         </div>
-    ))}
+    )})}
 </div>

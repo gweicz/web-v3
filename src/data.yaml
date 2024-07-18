@@ -677,6 +677,7 @@ projects:
       web: bsky.cz
       twitter: bskyczech
       bsky: bsky.cz 
+      github: https://github.com/bskycz
     years: 2024-
     tags: [ community, social-networks ]
 

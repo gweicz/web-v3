@@ -99,6 +99,30 @@ members:
       twitter: DivergentsNFT
       linkedin: jana-kub%C3%A1tov%C3%A1-745057b9
 
+  - id: cryptonda
+    name: cryptonda
+    img: cryptonda.jpeg
+    refs:
+      twitter: cryptonda
+
+  - id: jiri-cepelka
+    name: Jiricepelka
+    img: jiri-cepelka.jpg
+    refs:
+      twitter: ADMT_Intern
+  
+  - id: vojtch
+    name: Vojtch
+    img: vojtch.jpg
+    refs:
+      twitter: 0xVojtch
+  
+  - id: exez
+    name: Exez
+    img: exez.jpg
+    refs:
+      twitter: OndraPulc
+
 #  - id: mario-havel
 #    name: Mario Havel
 #    img: mario-havel.jpeg
@@ -141,12 +165,6 @@ members:
 #    img: adam-kracik.jpeg
 #    refs:
 #      twitter: kracik_adam
-
-#  - id: cryptonda
-#    name: cryptonda
-#    img: cryptonda.jpeg
-#    refs:
-#      twitter: cryptonda
 
 #  - id: michaela-malatin
 #    name: Michaela Malatín
@@ -258,6 +276,17 @@ projects:
     years: 2021-
     tags: [ events, privacy, hackathon ]
 
+  - id: pwn
+    name: PWN
+    members: [ vojtch ]
+    img: pwn.jpeg
+    description: P2P lending using any token as collateral.
+    refs:
+      web: pwn.xyz
+      twitter: pwndao
+    years: 2021-
+    tags: [ DeFi, lending ]
+
   # - id: ackee-blockchain
   #   name: Ackee Blockchain
   #   members: [ josef-gattermayer ]
@@ -266,16 +295,6 @@ projects:
   #   refs:
   #     web: ackee.xyz
   #     twitter: AckeeBlockchain
-  #   years: 2021-
-
-  # - id: pwn
-  #   name: PWN
-  #   members: [ ashhanai ]
-  #   img: pwn.jpeg
-  #   description: P2P lending using any token as collateral.
-  #   refs:
-  #     web: pwn.xyz
-  #     twitter: pwndao
   #   years: 2021-
 
   # - id: bankless-czech
@@ -342,6 +361,17 @@ projects:
       twitter: dvrg_nft
     years: 2022-
     tags: [ services, art, NFTs ]
+
+  - id: cryptobyte
+    name: CryptoByte
+    members: [ cryptonda ]
+    img: cryptobyte.jpg
+    description: Open cryptocurrency conference not only about bitcoin in Liberec, Czechia (in czech language).
+    refs:
+      web: https://cryptobyte.cz
+      twitter: CByte_Lbc
+    years: 2022-
+    tags: [ events, bitcoin ]
 
   - id: indices-fi
     name: Indices.fi
@@ -552,15 +582,16 @@ projects:
       github: https://github.com/radeksvarz/yac3f
     years: 2023-
 
-  # - id: czkc
-  #   name: CZKC
-  #   members: [ radek, petr-klein ]
-  #   img: czkc.png
-  #   description: Fiat-collateralized CZK stablecoin.
-  #   refs:
-  #     web: czkc.io
-  #     twitter: CZKC_cz
-  #   years: 2023-
+  - id: czkc
+    name: CZKC
+    members: [ radek ]
+    img: czkc.png
+    description: Fiat-collateralized CZK stablecoin.
+    refs:
+      web: czkc.io
+      twitter: CZKC_cz
+    years: 2023-
+    tags: [ stablecoin ]
 
   - id: web3privacy-now
     name: Web3Privacy Now
@@ -628,16 +659,16 @@ projects:
   #     twitter: ProtoLayers
   #   years: 2024-
 
-  - id: gweicz-broadcast-unit
-    name: Gwei.cz Broadcast Unit
-    members: [ tree, coinmandeer ]
-    img: gweicz-broadcast.webp
-    description: Recording and broadcasting service as public good for local events.
-    refs:
-      web: https://github.com/gweicz/broadcast-unit
-      github: https://github.com/gweicz/broadcast-unit
-    years: 2024-
-    tags: [ services, public-goods ]
+  #- id: gweicz-broadcast-unit
+  #  name: Gwei.cz Broadcast Unit
+  #  members: [ tree, coinmandeer ]
+  #  img: gweicz-broadcast.webp
+  #  description: Recording and broadcasting service as public good for local events.
+  #  refs:
+  #    web: https://github.com/gweicz/broadcast-unit
+  #    github: https://github.com/gweicz/broadcast-unit
+  #  years: 2024-
+  #  tags: [ services, public-goods ]
   
   # - id: logos-assembly-brno
   #   name: Logos Assembly Brno
@@ -648,17 +679,17 @@ projects:
   #     web: https://lu.ma/la3
   #   years: 2024-
 
-  - id: unchained-brno
-    name: Unchained Brno
-    members: [ tree, petr-mensik ]
-    img: onchainbrno.jpg
-    description: A federation of events around cryptocurrencies happening at the end of October 2024 in Brno, Czech Republic.
-    refs:
-      web: onchainbrno.com
-      twitter: OnchainBrno
-      github: https://github.com/onchainbrno/ob24
-    years: 2024-
-    tags: [ events ]
+  #- id: unchained-brno
+  #  name: Unchained Brno
+  #  members: [ tree, petr-mensik ]
+  #  img: onchainbrno.jpg
+  #  description: A federation of events around cryptocurrencies happening at the end of October 2024 in Brno, Czech Republic.
+  #  refs:
+  #    web: onchainbrno.com
+  #    twitter: OnchainBrno
+  #    github: https://github.com/onchainbrno/ob24
+  #  years: 2024-
+  #  tags: [ events ]
 
   - id: gweicz-lunarpunk-division
     name: Gwei.cz Lunarpunk Division ⟠
@@ -680,6 +711,48 @@ projects:
       github: https://github.com/bskycz
     years: 2024-
     tags: [ community, social-networks ]
+
+  - id: ruby-nodes
+    name: Ruby Nodes
+    members: [ petr-mensik ]
+    img: ruby-nodes.jpg
+    description: Infrastructure provider operating 30+ blockchain networks.
+    refs:
+      web: https://rubynodes.io/
+      twitter: RubyNodes
+    years: 2024-
+    tags: [ service, staking ]
+
+  - id: adamantfi
+    name: AdamantFi
+    members: [ jiri-cepelka ]
+    img: adamantfi.jpg
+    description: Privacy-preserving liquidity protocol.
+    refs:
+      twitter: AdamantFi
+    years: 2024-
+    tags: [ DeFi, privacy ]
+
+  - id: pp0
+    name: Parallel Polis Zero (PP0)
+    members: [ tree ]
+    img: pp0.webp
+    description: The digital-first meta instance of Paralelní Polis.
+    refs:
+      web: https://paralelnipolis.info/
+      bsky: paralelnipolis.info
+    years: 2024-
+    tags: [ community ]
+
+  - id: pp0-events
+    name: pp0.events
+    members: [ tree ]
+    img: pp0.webp
+    description: Community-driven, non-profit event production guild.
+    refs:
+      web: https://pp0.events/
+    years: 2025-
+    tags: [ events ]
 
 protocols:
   - id: ethereum
